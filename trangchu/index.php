@@ -87,166 +87,282 @@
                     </ul>
                 </div> <!--list tùy chọn-->
             </div>
-            <div>
-                <div></div>
-                <div></div>   
+            <div class="headerquangcao">
+                <div class="javascrip">
+                     <a href="#"><img src="img/banner/javascrip1.jpg" alt="Hình ảnh" /></a>
+                </div>
+                <div class="qcao">
+                    <a href="#"><img src="img/banner/qcao1.jpg" alt="Hình ảnh" /></a>
+                    <a href="#"><img src="img/banner/qcao2.jpg" alt="Hình ảnh" /></a>
+                </div><!--Hai hình quảng cáo-->   
             </div><!--JAVA scrip-->
         </div>
         <!--....................................header.........................................................-->
         
-        <!--<div id="conten">
+        <div id="conten">
             <div class="sanpham">
-                <div class="sanpham1">
-                    <div class="sanpham1a">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                    <div class="sanpham1b">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div> 
-                </div>
-                <div class="sanpham2">
-                    <div class="sanpham2a">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                    <div class="sanpham2b">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                </div>
-                <div class="sanpham3">
-                    <div class="sanpham3a">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                    <div class="sanpham3b">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                    <div class="sanpham3c">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                </div>
-                <div class="sanpham4">
-                    <div class="sanpham4a">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                    <div class="sanpham4b">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                    <div class="sanpham4c">
-                        <img src="img/conten/J5.PNG" alt="J5" />
-                        <h3>Galaxy J5</h3>
-                        <p>Camera thủ lĩnh bóng đêm</p>
-                        <h4>Galaxy J5</h4>
-                        <p>5.000.000đ</p>
-                    </div>
-                </div>
-            </div>--><!--sản phẩm-->
-            <!--<div class="tintuc">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/j5.png" alt="J5" />
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <div class="spham">
+                                <p>=>camera thủ lĩnh</p>
+                                <p><strong>Khuyến mãi</strong></p>
+                                <p>trả góp 0%</p>
+                                <p>mũ bảo hiểm biker</p>
+                            </div>
+                            <h3>SAM SUNG GALAXY J5</h3>
+                            <strong>5.000.000đ</strong>
+                            <a href="#"><button>MUA NGAY</button></a>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                </ul>
+            </div><!--sản phẩm-->
+            <div class="tintuc">
                 <div class="tieude">
-                    <a class="left" href="#"><h3>TIN CÔNG NGHỆ</h3></a>
-                    <a class="leftleft" href="#">xem thêm </a>
+                    <a class="right" href="#"><span class="span">TIN CÔNG NGHỆ</span></a>
+                    <a class="rightright" href="#"><span class="span2">xem thêm </span></a>
                 </div>
                 <div class="noidung">
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-                    <a href="#" class="noidungleft">
-                        <img src="img/conten/samsung.png" alt="SamSung" />
-                        <h3>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</h3>
-                    </a>
-            </div>--><!--tin tức-->
-            <!--<div class="button">
-                <div>
-                    <a href="#">Khuyến mãi tháng 6</a>
-                    <a href="#">Điện thoại (184)</a>
-                    <a href="#">Máy tính bảng (68)</a>
-                    <a href="#">Laptop (71)</a>
-                    <a href="#">Phụ kiện (1000)</a>
-                    <a href="#">máy đã sử dụng (11220)</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="noidungright">
+                                <img src="img/conten/samsung.png" alt="SamSung" />
+                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                            </a>
+                        </li>
+                    </ul>
+            </div><!--tin tức-->
+            <div class="button">
+                <div class="button1">
+                    <ul>
+                        <li>
+                            <a href="#"><button>Khuyến mãi tháng 6</button></a>
+                        </li>
+                        <li>
+                            <a href="#"><button>Điện thoại (184)</button></a>
+                        </li>
+                        <li>
+                            <a href="#"><button>Máy tính bảng (68)</button></a>
+                        </li>
+                        <li>
+                            <a href="#"><button>Laptop (71)</button></a>
+                        </li>
+                        <li>
+                            <a href="#"><button>Phụ kiện (1000)</button></a>
+                        </li>
+                        <li>
+                            <a href="#"><button>máy đã sử dụng (11220)</button></a>
+                        </li>
+                    </ul>
                 </div>
-                <div>
-                    <span>tìm kiếm nhiều:</span>
-                    <a href="#">• Mobell M328</a>
-                    <a href="#">• Mobiistar Buddy</a>
-                    <a href="#">• Ốp lưng iPhone 6s</a>
-                    <a href="#">• Phụ kiện iPhone 6s Plus</a>
-                    <a href="#">• Galaxy J1 2016</a>
-                    <a href="#">• Samsung Gear</a>
+                <div class="buton2">
+                    <ul>
+                        <li>
+                            <span>Tìm kiếm nhiều:</span>
+                        </li>
+                        <li>
+                            <a href="#">• Mobell M328</a>
+                        </li>
+                        <li>
+                            <a href="#">• Mobiistar Buddy</a>
+                        </li>
+                        <li>
+                            <a href="#">• Ốp lưng iPhone 6s</a>
+                        </li>
+                        <li>
+                            <a href="#">• Phụ kiện iPhone 6s Plus</a>
+                        </li>
+                        <li>
+                            <a href="#">• Galaxy J1 2016</a>
+                        </li>
+                        <li>
+                            <a href="#">• Samsung Gear</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>--><!--san pham giới thiệu-->
