@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link   href="css/bootstrap.css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-    
-	<title>Hãng sãn xuất</title>
+  <?php include 'include/css_js_head.php'; ?>
 </head>
 <body>
-<?php include'../include/menu.html'; ?>
+	<!-- /Include Menu Head -->
+  	<?php include 'include/header.php'; ?>
 
-    <div class="container">
-		<div class="row">
-			<h3>PRODUCERS </h3>
-		</div>
-		<div class="row">
-			<p>
-				<a href="producerCreate.php" class="btn btn-success">Create</a>
-			</p>
-			
-			<table class="table table-striped table-bordered">
+  	<div class="container-fluid">
+      	<div class="row-fluid">
+      	<!-- / Include menu -->
+        	<?php include'include/menu_left.php'; ?>
+
+        	<div class="span9">
+        	<!-- / Include Form action -->
+        		<table class="table table-striped table-bordered">
+        		<caption>List Producer</caption>
               	<thead>
 	                <tr>
 	                	<th>Logo</th>
@@ -59,8 +53,11 @@
 			  	?>
 			      </tbody>
             </table>
-    	</div>
 
-    </div> <!-- /container -->
-  </body>
+        	</div><!--/span-->
+      	</div><!--/row-->
+      <hr>
+      <!-- /Include Footer -->
+  	<?php include 'include/footer.php'; ?>
+</body>
 </html>
