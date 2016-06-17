@@ -5,8 +5,8 @@
 	if ( !empty($_GET['id'])) {
 		$id = $_REQUEST['id'];
 	}
-	$conn = Data::connect();
-	$results=Data::selectTable($conn,"producer","id",$id);
+	$conn = Database::connect();
+	$results=Database::selectTable($conn,"producer","id",$id);
 	if($results!=null)
 	{
 		$data=mysqli_fetch_array($results);
@@ -21,7 +21,7 @@
 			if(unlink($avatar)){
 				$sql = "DELETE FROM producer WHERE id=$id";
 				mysqli_query($conn,$sql);
-				Data::disconnect();
+				Database::disconnect();
 				header("Location: producerList.php");
 			}
 			else

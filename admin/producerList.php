@@ -29,8 +29,8 @@
               	<tbody>
               	<?php 
 				   	include '../database.php';
-				   	$conn = Data::connect();
-					$results = Data::selectTable($conn,"producer","","");
+				   	$conn = Database::connect();
+					$results = Database::selectTable($conn,"producer","","");
 					if ($results!=null) {
 					    // output data of each row
 					    while($row = mysqli_fetch_assoc($results)) {
@@ -49,7 +49,7 @@
 					} else {
 					    echo "<td colspan='6'style='text-align: center; font-size:20px; color: red'>No Data</td>";
 					}
-				   	Data::disconnect();
+				   	Database::disconnect();
 			  	?>
 			      </tbody>
             </table>

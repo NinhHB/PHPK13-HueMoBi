@@ -2,17 +2,17 @@
   session_start();
   include '../database.php';
   if (!empty($_POST)) {
-    $conn=Data::connect();
+    $conn=Database::connect();
     $username=$_POST['username'];
     $password=$_POST['password'];
     $sql=
-    $result=Data::selectTable($conn,'user','username',$username);
+    $result=Database::selectTable($conn,'user','username',$username);
 
     if($result->num_rows<1){
       echo '<script language="javascript">';
       echo 'alert("Username không tồn tại !")';
       echo '</script>';
-      Data::disconnect();
+      Database::disconnect();
     }
     else
     {
@@ -20,7 +20,7 @@
         echo '<script language="javascript">';
         echo 'alert("Đăng nhập thành công !")';
         echo '</script>';
-        Data::disconnect();
+        Database::disconnect();
         $_SESSION["username"]=mysqli_fetch_assoc($result)["fullName"];
         header('Location: index.php');
       }
@@ -28,7 +28,7 @@
         echo '<script language="javascript">';
         echo 'alert("Mật khẩu không chính xác !")';
         echo '</script>';
-        Data::disconnect();
+        Database::disconnect();
       }
     }
   }
