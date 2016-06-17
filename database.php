@@ -35,6 +35,31 @@ class Database
 
 		self::$conn->close();
 	}
+	public static function selectTable($conn,$nametable,$id,$dataid)//lấy dữ liệu từ $nametable có điều kiện hoặc không, nếu có điều kiện thì theo $id có dữ liệu kiểm tra là $dataid, ngược lại không có diều kiện các biến chuổi rổng "" xảy ra lổi nếu có kết quả null -> dùng để kiểm tra mã id
+		{
+			if ($conn!=null&&$nametable!=null) {
+				if($id!="")
+				{
+					$sql="SELECT * FROM ".$nametable." WHERE ".$id."='$dataid'";
+				}
+				else
+				{
+					$sql="SELECT * FROM ".$nametable;
+				}
+				$result = $conn->query($sql);
+				if($result!=null){
+					if($result->num_rows > 0){
+						return $result;
+					}
+					else
+						return null;
+				}
+				else
+					return null;
+			}
+			else
+				return null;
+		}
 
 }
 ?>
