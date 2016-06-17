@@ -18,7 +18,6 @@
 			mysqli_query($conn,$sql);
 			Data::disconnect();
 			header("Location : categoryList.php");	
-		}
 
 	}
 	else{
@@ -29,24 +28,25 @@
 		Data::disconnect();
 	}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <link   href="css/bootstrap.css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-	<title>Category</title>
+  <?php include 'include/css_js_head.php'; ?>
 </head>
 <body>
-	<div class="container">
-		<div class="span10 offset1">
-			<div class="row">
-    			<h3>Update Category: <?php echo $data['name'] ?></h3>
-    		</div>
-		<hr>
-		<form class="form-horizontal" action="categoryUpdate.php" method="POST">
+	<!-- /Include Menu Head -->
+  	<?php include 'include/header.php'; ?>
+
+  	<div class="container-fluid">
+      	<div class="row-fluid">
+      	<!-- / Include menu -->
+        	<?php include'include/menu_left.php'; ?>
+
+        	<div class="span9">
+        	<!-- / Include Form action -->
+        		<form class="form-horizontal" action="categoryUpdate.php" method="POST">
+        		<legend><h3>Update Category: <?php echo $data['name'] ?></h3>
+    		</div></legend>
 			<input type="hidden" name="id" value="<?php echo $data['id']; ?>">
 			<div class="control-group">
 			    <label class="control-label">Name Category</label>
@@ -77,7 +77,11 @@
 				  <a class="btn" href="categoryList.php">Back</a>
 				</div>
 		</form>
-		</div>
-	</div>
+
+        	</div><!--/span-->
+      	</div><!--/row-->
+      <hr>
+      <!-- /Include Footer -->
+  	<?php include 'include/footer.php'; ?>
 </body>
 </html>

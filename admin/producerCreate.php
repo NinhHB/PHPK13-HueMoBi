@@ -36,25 +36,24 @@
 	}
 	Data::disconnect();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <link   href="css/bootstrap.css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-    
-	<title>Hãng sãn xuất</title>
+  <?php include 'include/css_js_head.php'; ?>
 </head>
 <body>
-	<div class="container">
-		<div class="span10 offset1" >
-			<div class="row">
-    			<h3>Tạo mới Hãng sãn xuất</h3>
-    		</div>
-		<hr>
-			<form class="form-horizontal" action="producerCreate.php" method="post" enctype="multipart/form-data">
+	<!-- /Include Menu Head -->
+  	<?php include 'include/header.php'; ?>
+
+  	<div class="container-fluid">
+      	<div class="row-fluid">
+      	<!-- / Include menu -->
+        	<?php include'include/menu_left.php'; ?>
+
+        	<div class="span9">
+        	<!-- / Include Form action -->
+        		<form class="form-horizontal" action="producerCreate.php" method="post" enctype="multipart/form-data">
+			<legend><h3>Tạo mới Hãng sãn xuất</h3></legend>
 			 <div style="float:left; width:300px">
 			  <div class="control-group">
 			    <label class="control-label">Tên Hãng sản xuất</label>
@@ -65,7 +64,7 @@
 			  <div class="control-group">
 			    <label class="control-label">Email</label>
 			    <div class="controls">
-			      	<input name="email" type="text" placeholder="Email Address" value="<?php echo !empty($email)?$email:'';?>">
+			      	<input name="email" type="email" placeholder="Email Address" value="<?php echo !empty($email)?$email:'';?>">
 			    </div>
 			  </div>
 			  <div class="control-group">
@@ -91,7 +90,11 @@
 				  <a class="btn" href="producerList.php">Back</a>
 				</div>
 			</form>
-		</div>
-    </div> <!-- /container -->
+
+        	</div><!--/span-->
+      	</div><!--/row-->
+      <hr>
+      <!-- /Include Footer -->
+  	<?php include 'include/footer.php'; ?>
 </body>
 </html>

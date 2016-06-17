@@ -1,24 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <?php include 'include/css_js_head.php'; ?>
+</head>
+<body>
+	<!-- /Include Menu Head -->
+  	<?php include 'include/header.php'; ?>
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
- 	<meta charset="utf-8">
-    <link   href="css/bootstrap.css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
- 	<title>Category</title>
- </head>
- <body>
- <div class="container">
-		<div class="row">
-			<h3>Category </h3>
-		</div>
-		<div class="row">
-			<p>
-				<a href="categoryCreate.php" class="btn btn-success">Create</a>
-			</p>
-			
-			<table class="table table-striped table-bordered">
+  	<div class="container-fluid">
+      	<div class="row-fluid">
+      	<!-- / Include menu -->
+        	<?php include'include/menu_left.php'; ?>
+
+        	<div class="span10">
+        	<!-- / Include Form action -->
+        		<table class="table table-striped table-bordered">
+        		<caption><h3>List Category</h3></caption>
               	<thead>
 	                <tr>
 	                	<th>ID</th>
@@ -38,7 +35,7 @@
 				        echo '<tr>';
 				        echo '<td>'. $row['id'] . '</td>';
 					   	echo '<td>'. $row['name'] . '</td>';
-					   	echo '<td>'. $row['idCategory'] . '</td>';
+					   	echo '<td>'. $row['parentId'] . '</td>';
 					   	echo '<td width=100px >';
 					   	echo '<a class="btn btn-small btn-success" href="categoryUpdate.php?id='.$row['id'].'"><i class="icon-edit"></i></a>';
 					   	echo '<a class="btn btn-small btn-danger" href="categoryDelete.php?id='.$row['id'].'" style="margin-left:5px"><i class="icon-remove-circle"></i></a>';
@@ -52,7 +49,11 @@
 			  	?>
 			      </tbody>
             </table>
-    	</div>
-    </div> <!-- /container -->
- </body>
- </html>
+
+        	</div><!--/span-->
+      	</div><!--/row-->
+      <hr>
+      <!-- /Include Footer -->
+  	<?php include 'include/footer.php'; ?>
+</body>
+</html>
