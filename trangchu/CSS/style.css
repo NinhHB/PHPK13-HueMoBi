@@ -20,7 +20,6 @@ li {
     min-width: 1024px;
     background: yellow;
     width: 100%;
-    height: 55px;
 	}
 #header .headermenu{
     max-width: 1200px;
@@ -136,54 +135,75 @@ li {
 	background-color: #FFFF00;
 }
 */
+.headerquangcao{
+	margin-top: 5px;
+	margin-left: 75px;
+	margin-right: 5px;
+	float: left;
+}
 .headerquangcao .javascrip{
 	display: inline;
-	margin-left: 74px;
-	position: static;
+	float: left;
+	width: 60%;
 }
 .headerquangcao .javascrip a img{
-	width: 55%;
+	width: 95%;
 }
 .headerquangcao .qcao{
 	width: 30%;
-    float: right;
+    float: left;
     overflow: hidden;
-    margin-right: 114px;
 }/*======================header javascrip============================*/
 /*=======================================================CSS conten=======================================================================*/
-#conten .sanpham{
-	display: block;
-    width: 60%;
-    float: left;
-    margin-top: 10px;
+#conten{
+	margin-top: 5px;
+	margin-left: 28px;
+	margin-right: 130px;
+	float: left;
 }
-#conten .sanpham ul li{
+#conten .sanpham1{
+	display: inline-block;
+	width: 68%;
+	overflow: hidden;
+}
+#conten .sanpham1 ul li{
+	width: 48%;
+	height: 30%;
 	float: left;
 	background-color: white;
-	width: 30%;
-	margin: 5px 5px;
+	margin-bottom: 10px;
+	margin-right: 1.1%;
 }
-#conten .sanpham ul li a .spham{
-	display: inline;
-	line-height: 5px;
-	font-size: 12px;
+#conten .sanpham1 img{
+	width: 100%;
+	float: left;
+	display: block;
+	margin-left: 0PX;
 }
-#conten .sanpham ul li a .spham p{
-	margin-left: 70px;
+#conten .sanpham1 .spham{
+	text-align: center;
+	line-height: 20px;
 }
-#conten .sanpham ul li a img{
-	width: 20%;
-	height: 20%;
+#conten .sanpham1 .spham button{
+	float: right;
+	margin-right: 29px;
 }
-#conten .sanpham ul li .hover{
+#conten .sanpham1 .spham button:hover{
+	background-color: red;
+}
+#conten .sanpham1 ul li .hover{
 	display: none;
-} 
+}
+/*#conten .sanpham1 ul li .hover:hover{
+	opacity: 1;
+}*/
+
 /*sản phẩm*/
 #conten .tintuc{
-	width:30%;
+	width:32%;
 	float: right;
 	overflow: hidden;
-	margin-right: 114px;
+	display: block;
 }
 #conten .tintuc .tieude{
 	border-bottom: 2px solid #920606;
@@ -201,7 +221,7 @@ li {
 	background-color: #EAF1B1;
 }
 #conten .tintuc{
-	line-height: 20px;
+	line-height: 26px;
 	font-size: 16px;
 	overflow: hidden;
 }
@@ -212,20 +232,45 @@ li {
 }
 
 /*tin tức*/
-#conten .button{
-	display: block;
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
-    clear: both;
+#conten .sanpham2 {
+	width: 100%;;
+    margin: -18px auto 0 auto;
+    overflow: hidden; /*chống tràn van bản*/
+    float: left;
 }
+#conten .sanpham2 ul li{
+	width: 32%;
+	height: 30%;
+	float: left;
+	background-color: white;
+	margin-bottom: 10px;
+	margin-right: 1.3%;
+}
+#conten .sanpham2 img{
+	width: 100%;
+	float: left;
+	display: block;
+	margin-left: 0PX;
+}
+#conten .sanpham2 ul li .hover{
+	display: none;
+}
+/*#c
+/*#conten .button{
+	width: 100%;
+    min-width: 980px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    background: #f0f0f0;
+    padding: 15px 0;
+}*/
 /*===============================================CSS FOOTER====================================================================*/
-/*#footer{
+#footer{
     width: 100%;
     min-width: 980px;
     margin: 15px auto 0 auto;
-    overflow: hidden;*/ /*chống tràn van bản*/
-  /*  clear: both;
+    overflow: hidden; /*chống tràn van bản*/
+    clear: both;
 }
 #footer .hotro{
 	display: block;
@@ -264,4 +309,4 @@ li {
 #footer .address #ad2 a{
 	display: inline-table;
 	width: 78px;
-}*/
+}

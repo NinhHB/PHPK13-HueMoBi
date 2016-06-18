@@ -90,31 +90,26 @@
             <div class="headerquangcao">
                 <div class="javascrip">
                      <a href="#"><img src="img/banner/javascrip1.jpg" alt="Hình ảnh" /></a>
-                </div>
+                </div><!--JAVA scrip-->
                 <div class="qcao">
                     <a href="#"><img src="img/banner/qcao1.jpg" alt="Hình ảnh" /></a>
                     <a href="#"><img src="img/banner/qcao2.jpg" alt="Hình ảnh" /></a>
                 </div><!--Hai hình quảng cáo-->   
-            </div><!--JAVA scrip-->
+            </div>
         </div>
         <!--....................................header.........................................................-->
         
         <div id="conten">
-            <div class="sanpham">
-                <ul>
+            <div class="sanpham1">
+                <ul class="ul1">
                     <li>
                         <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
                             <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
                             </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
                         </a>
                         <div class="hover">
                             <p>Màn hình : HD, 5.12inch</p>
@@ -127,17 +122,12 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
                             <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
                             </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
                         </a>
                         <div class="hover">
                             <p>Màn hình : HD, 5.12inch</p>
@@ -150,17 +140,12 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
                             <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
                             </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
                         </a>
                         <div class="hover">
                             <p>Màn hình : HD, 5.12inch</p>
@@ -173,86 +158,12 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
                             <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
                             </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
-                        </a>
-                        <div class="hover">
-                            <p>Màn hình : HD, 5.12inch</p>
-                            <p>HĐH: Androi 6</p>
-                            <p>CPU:4 nhân , RAM 2GB</p>
-                            <p>Camera:12px, 2sim</p>
-                            <p>Pin:3100mAh</p>
-                            <a href="#"><button>Mua ngay</button></a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
-                            </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
-                        </a>
-                        <div class="hover">
-                            <p>Màn hình : HD, 5.12inch</p>
-                            <p>HĐH: Androi 6</p>
-                            <p>CPU:4 nhân , RAM 2GB</p>
-                            <p>Camera:12px, 2sim</p>
-                            <p>Pin:3100mAh</p>
-                            <a href="#"><button>Mua ngay</button></a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
-                            </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
-                        </a>
-                        <div class="hover">
-                            <p>Màn hình : HD, 5.12inch</p>
-                            <p>HĐH: Androi 6</p>
-                            <p>CPU:4 nhân , RAM 2GB</p>
-                            <p>Camera:12px, 2sim</p>
-                            <p>Pin:3100mAh</p>
-                            <a href="#"><button>Mua ngay</button></a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/conten/j5.png" alt="J5" />
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <div class="spham">
-                                <p>=>camera thủ lĩnh</p>
-                                <p><strong>Khuyến mãi</strong></p>
-                                <p>trả góp 0%</p>
-                                <p>mũ bảo hiểm biker</p>
-                            </div>
-                            <h3>SAM SUNG GALAXY J5</h3>
-                            <strong>5.000.000đ</strong>
-                            <a href="#"><button>MUA NGAY</button></a>
                         </a>
                         <div class="hover">
                             <p>Màn hình : HD, 5.12inch</p>
@@ -264,7 +175,7 @@
                         </div>
                     </li>
                 </ul>
-            </div><!--sản phẩm-->
+            </div>
             <div class="tintuc">
                 <div class="tieude">
                     <a class="right" href="#"><span class="span">TIN CÔNG NGHỆ</span></a>
@@ -315,57 +226,121 @@
                             </a>
                         </li>
                     </ul>
+                </div>
             </div><!--tin tức-->
-            <div class="button">
-                <div class="button1">
-                    <ul>
-                        <li>
-                            <a href="#"><button>Khuyến mãi tháng 6</button></a>
-                        </li>
-                        <li>
-                            <a href="#"><button>Điện thoại (184)</button></a>
-                        </li>
-                        <li>
-                            <a href="#"><button>Máy tính bảng (68)</button></a>
-                        </li>
-                        <li>
-                            <a href="#"><button>Laptop (71)</button></a>
-                        </li>
-                        <li>
-                            <a href="#"><button>Phụ kiện (1000)</button></a>
-                        </li>
-                        <li>
-                            <a href="#"><button>máy đã sử dụng (11220)</button></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="buton2">
-                    <ul>
-                        <li>
-                            <span>Tìm kiếm nhiều:</span>
-                        </li>
-                        <li>
-                            <a href="#">• Mobell M328</a>
-                        </li>
-                        <li>
-                            <a href="#">• Mobiistar Buddy</a>
-                        </li>
-                        <li>
-                            <a href="#">• Ốp lưng iPhone 6s</a>
-                        </li>
-                        <li>
-                            <a href="#">• Phụ kiện iPhone 6s Plus</a>
-                        </li>
-                        <li>
-                            <a href="#">• Galaxy J1 2016</a>
-                        </li>
-                        <li>
-                            <a href="#">• Samsung Gear</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="sanpham2">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/conten/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                        <div class="hover">
+                            <p>Màn hình : HD, 5.12inch</p>
+                            <p>HĐH: Androi 6</p>
+                            <p>CPU:4 nhân , RAM 2GB</p>
+                            <p>Camera:12px, 2sim</p>
+                            <p>Pin:3100mAh</p>
+                            <a href="#"><button>Mua ngay</button></a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>--><!--san pham giới thiệu-->
+        </div><!--content-->
         <!--..................................................conten..............................................-->
          <div id="footer">
             <div class="hotro">
