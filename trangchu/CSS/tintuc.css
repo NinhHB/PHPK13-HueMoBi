@@ -114,7 +114,45 @@ li {
 }
 #header .headermenu .list li:visited, #header .headermenu .list li a:visited{
     background-color: #ebebeb;
+}
+/*menu chính*/
+
 }/*===================header=========================*/
+#conten{
+}
+#conten .content1{
+    display: block;
+    margin-left: 35px;
+    width: 90%;
+}
+
+#conten .content1 ul li{
+    float: left;
+    width: 23%;
+    margin: 0 1.11% 0 0;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+}/*content ngang*/
+#conten .content2{
+    width: 40%;
+    margin-left: 35px;
+    overflow: hidden;
+    font-size: 12px;
+}
+#conten .content2 ul li{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    position: relative;
+    background-color: white;
+}
+#conten .content2 ul li img{
+    float: left;
+    margin-right: 2px;
+}
 
 /*=======================================================CSS conten=======================================================================*/
 

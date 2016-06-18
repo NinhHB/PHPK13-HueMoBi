@@ -22,51 +22,15 @@
                 <div class="list">
                     <ul class="list1">
                         <li>
-                            <!-- <ul class="menu-con">
-                                <li> <a href="#">APPLE</a></li>
-                                <li> <a href="#">SAMSUNG</a></li>
-                                <li> <a href="#">NOKIA</a></li>
-                                <li> <a href="#">SONY</a></li>
-                                <li> <a href="#">LG</a></li>
-                                <li> <a href="#">HTC</a></li>
-                                <li> <a href="#">OPPLE</a></li>
-                                <li> <a href="#">ASUS</a></li>
-                                <
-                            </ul> -->
                             <a href="#"><img src="img/banner/005.png" alt="Điện thoại" ><span>Điện thoại</span></a>
                         </li>
                         <li>
-                            <!-- <ul class="menu-con">
-                                <li> <a href="#">APPLE</a></li>
-                                <li> <a href="#">SAMSUNG</a></li>
-                                <li> <a href="#">ACER</a></li>
-                                <li> <a href="#">DELL</a></li>
-                                <li> <a href="#">WING</a></li>
-                                <li> <a href="#">MASSTER</a></li>
-                                <li> <a href="#">LNOVO</a></li>
-                                <li> <a href="#">ASUS</a></li>
-                            </ul> -->
                             <a href="#"><img src="img/banner/036.png" alt="TABLE" /> <span>Table</span> </a>
                         </li>
                         <li>
-                           <!--  <ul class="menu-con">
-                                <li> <a href="#">APPLE</a></li>
-                                <li> <a href="#">HP</a></li>
-                                <li> <a href="#">ACER</a></li>
-                                <li> <a href="#">DELL</a></li>
-                                <li> <a href="#">TOSHIBA</a></li>
-                                <li> <a href="#">ASUS</a></li>
-                            </ul> -->
                             <a href="#"> <img src="img/banner/033.png"alt="laptop" /><span>Latop</span></a>
                         </li>
                         <li>
-                           <!--  <ul class="menu-con">
-                                <li> <a href="#">SẠC</a></li>
-                                <li> <a href="#">LOA</a></li>
-                                <li> <a href="#">TÚI XÁCH</a></li>
-                                <li> <a href="#">BỘ NHỚ</a></li>
-                                <li> <a href="#">KÍNH</a></li>
-                            </ul> -->
                             <a href="#" > <img src="img/banner/049.png" alt="phụ kiện" /> <span>phụ kiện</span> </a>
                         </li>
                         <li>
@@ -87,11 +51,156 @@
                     </ul>
                 </div> <!--list tùy chọn-->
             </div>
+            <!-- <div class="menu2">
+                <ul>
+                    <li>
+                        <a href="index.php"><span>Trang chủ</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>Tin nhanh 24/7</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>Đánh giá</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>Mẹo hay</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>Cộng đồng</span></a>
+                    </li>
+                    <li>
+                        <a href=""><span>Tin khuyến mãi</span></a>
+                    </li>
+                </ul>
+            </div>-->
         </div>
         <!--....................................header.........................................................-->
         
         <div id="conten">
-            
+            <div class="content1">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img width="240" height="135" src="https://cdn3.tgdd.vn/Files/2016/06/17/843118/untitled-1-300x200.jpg" alt="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS"/>
+                            <h2 title="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS">Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS</h2>
+                            <span>Phan Phú Trung</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img width="240" height="135" src="https://cdn3.tgdd.vn/Files/2016/06/17/843118/untitled-1-300x200.jpg" alt="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS"/>
+                            <h2 title="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS">Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS</h2>
+                            <span>Phan Phú Trung</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img width="240" height="135" src="https://cdn3.tgdd.vn/Files/2016/06/17/843118/untitled-1-300x200.jpg" alt="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS"/>
+                            <h2 title="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS">Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS</h2>
+                            <span>Phan Phú Trung</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img width="240" height="135" src="https://cdn3.tgdd.vn/Files/2016/06/17/843118/untitled-1-300x200.jpg" alt="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS"/>
+                            <h2 title="Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS">Khám phá 5 tính năng cực hay trên Android 6 không thua kém iOS</h2>
+                            <span>Phan Phú Trung</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content2">
+                <div class="conten2a">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="conten2b">
+                    
+                </div>
+                <div class="conten2c">
+                    
+                </div>
+            </div>
         </div><!--content-->
         <!--..................................................conten..............................................-->
          <div id="footer">
