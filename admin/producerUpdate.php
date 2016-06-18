@@ -9,7 +9,7 @@
 		header("Location: producerList.php");
 	}
 	require '../database.php';
-	$conn=Data::connect();
+	$conn=Database::connect();
 	if(isset($_POST['btn_save'])){
 		$id=$_POST['id'];
 		$name=$_POST['name'];
@@ -37,15 +37,15 @@
 				$sql="UPDATE `producer` SET `name`='$name',`website`='$website',`phone`='$phone',`email`='$email' WHERE id='$id'";
 			}
 			mysqli_query($conn,$sql);
-			Data::disconnect();
+			Database::disconnect();
 			header("Location: producerList.php");
 	}
 	else{
-		$results=Data::selectTable($conn,"producer","id",$id);
+		$results=Database::selectTable($conn,"producer","id",$id);
 		if($results!=null){
 			$data = mysqli_fetch_array($results);
 		}
-		Data::disconnect();
+		Database::disconnect();
 	}
 ?>
 

@@ -1,6 +1,6 @@
 <?php
 	require_once("../database.php");
-	$conn=Data::connect();
+	$conn=Database::connect();
 	if(isset($_POST['btn_add']))
 	{
 		$name=$_POST['name'];
@@ -8,7 +8,7 @@
 		$phone=$_POST['phone'];
 		$website=$_POST['website'];
 		$avatar='../upload/producer/'.basename($_FILES['avatar']['name']);
-		if(Data::selectTable($conn,"producer","name",$name)!=null)
+		if(Database::selectTable($conn,"producer","name",$name)!=null)
 		{
 			echo '<script language="javascript">';
 			echo 'alert("Hãng sản xuất đã tồn tại !")';
@@ -34,7 +34,7 @@
 			
 		}
 	}
-	Data::disconnect();
+	Database::disconnect();
 ?>
 <!DOCTYPE html>
 <html lang="en">

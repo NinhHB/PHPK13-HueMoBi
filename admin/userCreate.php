@@ -18,8 +18,8 @@
 		$status='work';
 
 		// insert data
-		$conn = Data::connect();
-		$result=Data::selectTable($conn,'user','username',$username);
+		$conn = Database::connect();
+		$result=Database::selectTable($conn,'user','username',$username);
 		if($result->num_rows>0){
 			echo '<script language="javascript">';
 			echo 'alert("Username đã tồn tại !")';
@@ -34,7 +34,7 @@
 			echo '<script language="javascript">';
 			echo 'alert("Nhân viên được tạo mới thành công !")';
 			echo '</script>';
-			Data::disconnect();
+			Database::disconnect();
 			header("Location: index.php");
 		}
 		
@@ -68,7 +68,7 @@
 					    <select name="role" required="">
 					    	<option value="">Lựa chọn chức vụ</option>
 					    	<?php
-					    		$conn=Data::connect();
+					    		$conn=Database::connect();
 					    		$sql = "SELECT * FROM role";
 								$results = mysqli_query($conn, $sql);
 								if (mysqli_num_rows($results) > 0) {
@@ -79,7 +79,7 @@
 								    		echo '</option>';
 								    }
 								}
-								Data::disconnect();
+								Database::disconnect();
 					    	?>
 					    </select>
 				    </div>
