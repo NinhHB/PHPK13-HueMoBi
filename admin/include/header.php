@@ -28,7 +28,7 @@
                 <ul class="dropdown-menu">
                 <li class="nav-header">Action</li>
                   <li><a href="producerCreate.php"><i class="icon-plus"></i> Add Producer</a></li>
-                  <li><a href="producerList.php"><i class="icon-th-list"></i> List Producer</a></li>
+                  <li><a href="producerIndex.php"><i class="icon-th-list"></i> List Producer</a></li>
                   <li class="divider"></li>
                   <li><a href="#"><i class="i"></i> Manage Producer</a></li>
                 </ul>

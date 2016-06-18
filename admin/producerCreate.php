@@ -23,7 +23,7 @@
 				echo '<script language="javascript">';
 				echo 'alert("Hãng sản xuất: '.$name.' đã được tạo mới !")';
 				echo '</script>';
-				header("Location : producerList.php");
+				header("Location : producerIndex.php");
 			}
 			else
 			{
