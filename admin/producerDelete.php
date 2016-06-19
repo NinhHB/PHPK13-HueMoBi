@@ -1,4 +1,5 @@
 <?php 
+	$namePage="Delete Producer::HueMobi";
 	require '../database.php';
 	$id = 0;
 

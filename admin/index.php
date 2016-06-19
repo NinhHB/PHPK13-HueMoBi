@@ -1,4 +1,10 @@
-
+<?php
+  session_start();
+  $data=$_SESSION['login'];
+  if($data['username']==null)
+    header("Location: login.php");
+  $namePage="Home Admin::HueMobi";
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

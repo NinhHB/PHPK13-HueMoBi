@@ -1,3 +1,4 @@
+<?php $namePage="Producer::HueMobi"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
