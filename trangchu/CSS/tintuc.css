@@ -119,11 +119,13 @@ li {
 
 }/*===================header=========================*/
 #conten{
+    margin: 10px;
+    color: black;
 }
 #conten .content1{
-    display: block;
+    display: inline-block;
     margin-left: 35px;
-    width: 90%;
+    width: 95%;
 }
 
 #conten .content1 ul li{
@@ -134,26 +136,91 @@ li {
     background: #fff;
     border: 1px solid #f1f1f1;
     border-radius: 4px;
-}/*content ngang*/
-#conten .content2{
-    width: 40%;
-    margin-left: 35px;
-    overflow: hidden;
-    font-size: 12px;
 }
-#conten .content2 ul li{
+#conten .content1 ul li a{
+       color: black;
+    }
+    #conten .content1 ul li :hover{
+       color: #090382;
+    }   /*content ngang*//*content1*/
+#conten .content2{
+    margin-left: 35px;
+    /*width: 90%;*/
+    margin-right: 90px;
+} 
+#conten .content2 .content2a{
+    width: 69%;
+    overflow: hidden;
+    font-size: 15px;
+    display: inline-block;
+}
+#conten .content2 .content2a ul li{
     display: block;
     overflow: hidden;
     margin-bottom: 30px;
     padding-right: 10px;
     position: relative;
     background-color: white;
+    color: black;
 }
-#conten .content2 ul li img{
+#conten .content2 .content2a ul li a{
+    color: black;
+}
+#conten .content2a ul li img{
     float: left;
-    margin-right: 2px;
+    margin-right: 20px;
+    width: 40%;
+    height: 40%;
 }
-
+#conten .content2a ul li :hover h3{
+    color: #090382;
+    }/*coten2a*/
+#conten .content2 .content2b{
+    float: right;
+    width: 30%;
+    background: #fff;
+    margin-top: 15px;
+}
+#conten .content2 .content2b h2{
+    display: block;
+    overflow: hidden;
+    line-height: 1.3em;
+    font-size: 18px;
+    color: #4a4a4a;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+    color: black;
+}
+#conten .content2 .content2b a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 2px solid red;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    margin-bottom: 22px;
+    
+}
+#conten .content2 .content2b a img{
+    float: left;
+    margin-top:13px;
+    margin-right: 10px;
+}
+#conten .content2 .content2b .view_more{
+    border:none;
+}
+#conten .content2 .content2b .view_more :hover span{
+    color:#090382;
+    text-decoration:underline; 
+}
+#conten .content2 .content2b a :hover{
+    color: #090382;
+}
 /*=======================================================CSS conten=======================================================================*/
 
 /*===============================================CSS FOOTER====================================================================*/

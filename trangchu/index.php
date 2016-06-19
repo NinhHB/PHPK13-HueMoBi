@@ -395,21 +395,22 @@
                     <p>Góp ý, khiếu nại (8:00 - 21:30)<b>1800.1062</b></p>
                     <p>Bảo hành sản phẩm (8:00 - 21:00)<b>1800.1064</b></p>
                 </div>
-        </div> <!--Hỗ trợ-->
-        <div class="address">
-            <div class="address1" id="ad1">
-                <p>Công ty cổ phần Điện thoại Huế. Chính sách sử dụng web văn phòng: <a href="#">11 Hùng Vương - tp Huế</a>
-                 </p>
-            </div>
-            <div>
-                
-            </div>
-            <div class="address1" id="ad2">
-                <p>Bạn có thể thanh toán với</p>
-                <a href="#">Tiền mặt</a>
-                <a href="#">ATM</a>
-            </div>
-        </div><!--Địa chỉ-->
+            </div> <!--Hỗ trợ-->
+            <div class="address">
+                <div class="address1" id="ad1">
+                    <p>Công ty cổ phần Điện thoại Huế. Chính sách sử dụng web văn phòng: <a href="#">11 Hùng Vương - tp Huế</a>
+                     </p>
+                </div>
+                <div>
+                    
+                </div>
+                <div class="address1" id="ad2">
+                    <p>Bạn có thể thanh toán với</p>
+                    <a href="#">Tiền mặt</a>
+                    <a href="#">ATM</a>
+                </div>
+            </div><!--Địa chỉ-->
+        </div>
         
         <!--..........................................footer....................................................-->
         
