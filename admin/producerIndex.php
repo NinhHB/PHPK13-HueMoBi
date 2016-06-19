@@ -1,3 +1,4 @@
+<?php $namePage="Producer::HueMobi"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
         	<div class="span9">
         	<!-- / Include Form action -->
         		<table class="table table-striped table-bordered">
-        		<caption>List Producer</caption>
+        		<caption><h3>List Producer</h3></caption>
               	<thead>
 	                <tr>
 	                	<th>Logo</th>

@@ -1,5 +1,6 @@
 
 <?php
+	$namePage="Update Producer::HueMobi";
 	$id = null;
 	if ( !empty($_GET['id'])) {
 		$id = $_REQUEST['id'];
@@ -65,7 +66,7 @@
 
         	<div class="span9">
         	<!-- / Include Form action -->
-        		<form class="form-horizontal" action="producerUpdate.php" method="post" enctype="multipart/form-data">
+        		<form class="form-horizontal" action="producerUpdate.php?id=<?php echo $data['id']?>" method="post" enctype="multipart/form-data">
         		<legend>Update Producer </legend>
 			 <div style="float:left; width:300px">
 			 <input type="hidden" name="id" value="<?php echo $id;?>"/>

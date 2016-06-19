@@ -7,7 +7,7 @@ class Database
 	private static $servername = "localhost";
 	private static $username = "root";
 	private static $password = "";
-	private static $dbname = "test";
+	private static $dbname = "datahuemobi";
 	private static $conn = null;
 
 	public function __construct(){

@@ -1,34 +1,32 @@
 <?php
 session_start();
-include '../database.php';
-// Create connection
-$conn = Database::connect();
-// Check connection
-if (!empty($_POST)) {
-  	$username=$_POST['username'];
-    $password=$_POST['password'];
-  $sql="SELECT user.id, user.username, user.fullName, user.password, role.name, role.key FROM user INNER JOIN role ON user.role=role.id WHERE user.username='$username'";
-  $results = $conn->query($sql);
-  if ($results->num_rows > 0) {
-    $data = $results->fetch_assoc();
-    if(md5($password)!=$data['password']){
-          echo '<script language="javascript">';
-          echo 'alert("Mật khẩu không chính xác !")';
-          echo '</script>';
-          }
-      else
-      {
-        $_SESSION['login']=$data;
-        header('Location: index.php');
-      }
+$servername = "localhost";
+$name = "root";
+$password = "";
+$dbname = "datahuemobi";
 
-  } else {
-        echo '<script language="javascript">';
-        echo 'alert("Username không tồn tại !")';
-        echo '</script>';
-      }
+// Create connection
+$conn = new mysqli($servername, $name, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+if (!empty($_POST)) {
+	$username=$_POST['username'];
+$sql="SELECT user.id, user.username, user.fullName, user.password, role.name, role.key FROM user INNER JOIN role ON user.role=role.id WHERE user.username='$username'";
+$results = $conn->query($sql);
+
+if ($results->num_rows > 0) {
+    // output data of each row
+    $data = $results->fetch_assoc();
+    $_SESSION['login']=$data;
+    header('Location: test1.php');
+
+} else {
+    echo "0 results";
 }
-Database::disconnect();
+}
+$conn->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -73,7 +71,7 @@ Database::disconnect();
 
     <div class="container">
 
-      <form class="form-signin" method="POST" action="login.php">
+      <form class="form-signin" method="POST" action="dangnhap_admin.php">
         <legend style="text-align:center"><h2 class="form-signin-heading"><img src="../assets/img/login.png"></i> Login</h2></legend>
         <label><b><i class="icon-user"></i> Username</b></label>
         <input type="text" class="input-block-level" placeholder="Enter Username" name="username" value="<?php echo !empty($username)?$username:''; ?>" required="">

@@ -85,20 +85,6 @@
 					    </select>
 				    </div>
 				</div> <!-- end show role -->
-				<!-- username -->
-				<div class="control-group">
-				    <label class="control-label">Username</label>
-				    <div class="controls">
-				      	<input name="username" type="text"  placeholder="Username" value="<?php echo !empty($username)?$username:'';?>">
-				    </div>
-			  	</div>
-			  	<!-- password -->
-			  	<div class="control-group">
-				    <label class="control-label">Password</label>
-				    <div class="controls">
-				      	<input name="password" type="password"  placeholder="Password" value="<?php echo !empty($password)?$password:'';?>">
-				    </div>
-			  	</div>
 			  	<!-- full name -->
 			  	<div class="control-group">
 				    <label class="control-label">Full Name</label>
