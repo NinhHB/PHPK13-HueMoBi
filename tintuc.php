@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>ĐIỆN THOẠI HUẾ</title>
- <link rel="stylesheet" href="CSS/reset.css">
- <link rel="stylesheet" href="CSS/tintuc.css">
+ <link rel="stylesheet" href="assets/CSS/reset.css">
+ <link rel="stylesheet" href="assets/CSS/tintuc.css">
 </head>
 
 <body>
@@ -13,40 +13,40 @@
         <div id="header">
             <div class="headermenu">
                 <div class="logo">
-                    <a href="#"><img src="img/banner/thegioididong.png" /></a>
+                    <a href="#"><img src="assets/img/banner/thegioididong.png" /></a>
                     <form action="#" method="POST" name="seach">
                         <input type="text" name="seach" class="input" placeholder="Bạn tìm gì ..." />
-                        <button type="submit" ><img src="img/banner/seach.png"/></button>
+                        <button type="submit" ><img src="assets/img/banner/seach.png"/></button>
                     </form>
                 </div><!--logo-->
                 <div class="list">
                     <ul class="list1">
                         <li>
-                            <a href="#"><img src="img/banner/005.png" alt="Điện thoại" ><span>Điện thoại</span></a>
+                            <a href="#"><img src="assets/img/banner/005.png" alt="Điện thoại" ><span>Điện thoại</span></a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/banner/036.png" alt="TABLE" /> <span>Table</span> </a>
+                            <a href="#"><img src="assets/img/banner/036.png" alt="TABLE" /> <span>Table</span> </a>
                         </li>
                         <li>
-                            <a href="#"> <img src="img/banner/033.png"alt="laptop" /><span>Latop</span></a>
+                            <a href="#"> <img src="assets/img/banner/033.png"alt="laptop" /><span>Latop</span></a>
                         </li>
                         <li>
-                            <a href="#" > <img src="img/banner/049.png" alt="phụ kiện" /> <span>phụ kiện</span> </a>
+                            <a href="#" > <img src="assets/img/banner/049.png" alt="phụ kiện" /> <span>phụ kiện</span> </a>
                         </li>
                         <li>
-                            <a href="#" ><img src="img/banner/067.png" alt="sim, thẻ"/> <span>sim,thẻ</span></a>
+                            <a href="#" ><img src="assets/img/banner/067.png" alt="sim, thẻ"/> <span>sim,thẻ</span></a>
                         </li>
                         <li> 
-                            <a href="#"><img src="img/banner/040.png" alt="Công nghệ"/> <span>công nghệ</span></a>
+                            <a href="#"><img src="assets/img/banner/040.png" alt="Công nghệ"/> <span>công nghệ</span></a>
                             </li>
                         <li>
-                             <a href="#"><img src="img/banner/21.png" alt=hỏi,đáp""/><span>hỏi đáp</span></a>
+                             <a href="#"><img src="assets/img/banner/21.png" alt=hỏi,đáp""/><span>hỏi đáp</span></a>
                          </li>
                         <li>
-                             <a href="#"><img src="img/banner/145.png"/><span>game,APP</span></a>
+                             <a href="#"><img src="assets/img/banner/145.png"/><span>game,APP</span></a>
                          </li>
                          <li>
-                             <a href="#"><img src="img/banner/qt.png"/><span>quà tặng</span></a>
+                             <a href="#"><img src="assets/img/banner/qt.png"/><span>quà tặng</span></a>
                          </li>
                     </ul>
                 </div> <!--list tùy chọn-->
