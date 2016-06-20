@@ -4,6 +4,9 @@ body{
 	font-family: Arial, sans-serif;
 	background: #ebebeb;
 	margin: 0;
+	/*padding: 0;
+	min-width: 1024px;
+	display: block;*/
 }
 a {
 	text-decoration: none;
@@ -21,6 +24,7 @@ h3, p {
 }
 
 #container{
+
 	/*width:960px;
 	margin:0 auto;*/
 		

@@ -20,8 +20,10 @@
     $(function(){
       $("#slides").slidesjs({
         width: 940,
-        height: 365
+        height: 365,
+        start: 3,
 
+        
 
       });
 
