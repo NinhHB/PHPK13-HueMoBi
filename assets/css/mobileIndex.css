@@ -1,0 +1,36 @@
+
+.search img {
+	float: left;
+}
+.btntop {
+
+	width: 50px;
+	height: 50px;
+	margin-left: 0px;
+}
+.icon_home {
+	width: 15px;
+	height: 15px;
+}
+
+.breadandfilter {
+	float: left;
+	width: 1024px;
+	height: 30px;
+	background-color: #999;
+	display: block;
+	margin: 
+}
+
+.breadcrumb li h1 a {
+    padding-left: 2px;
+    font-size: 10px;
+}
+
+.breadcrumb li a {
+    float: left;
+    white-space: nowrap;
+    font-size: 10px;
+    color: #4a90e2;
+    padding: 7px 5px;
+}
