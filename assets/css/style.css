@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+html {
+	margin: 0;
+	padding: 0;
+}
 body{
 	font-family: Arial, sans-serif;
-	background: #ebebeb;
-	margin: 0;
-	/*padding: 0;
 	min-width: 1024px;
-	display: block;*/
 }
 a {
 	text-decoration: none;
@@ -14,105 +14,163 @@ a {
 li {
 	list-style: none;
 }
-strong {
+/*strong {
 	color: red;
 	font-size: 16px;
 }
 
 h3, p {
 	color: black;
-}
+}*/
 
 #container{
-
+    max-width: 1200px;
+    width: 100%;
+    min-width: 980px;
+    margin: 65px auto 0;
 	/*width:960px;
 	margin:0 auto;*/
 		
 	}
 /*CSS định dạng LOGO*/
-#header{
-	
+header{
+	position: absolute; /*định dạng để cố định header */
+    top: 0; /*sát với viền trên trình duyệt*/
     min-width: 1024px;
-    background: #d300d6;
+    background: #ebebeb;
     width: 100%;
     height: 55px;
-    position: absolute; /*định dạng để cố định header */
-    top: 0; /*sát với viền trên trình duyệt*/
+    
 	}
-#header .headermenu{
+.clr {
+	clear: both;
+}
+.headermenu{
     max-width: 1200px;
     min-width: 1024px;
     width: 100%;
     height: 55px;
     margin: auto;
     display: block;	
+    position: relative;
+    background: #000;
     
  }
-#header .headermenu .logo{
-	background: black;
-	width: 400px;
-	height: 55px;
+ #search {
+    float: left;
+    width: 220px;
+    height: 35px;
+    margin: 10px 10px 0 0;
+    background: #fff;
+    position: relative;
+    border-radius: 4px;
 }
-#header .headermenu .logo a{
-	float: left;
+.logo {
+	background: black;
+    float: left;
     width: 165px;
     display: block;
+    margin: 12px auto 0;
+    margin-left: 10px;
+
 }
-#header .headermenu .logo a img {
-	height: 45px;
-	margin-top: 5px;
-	margin-left: 10px;
-	}
+
+a.logo img {
+	width: 156px;
+    height: auto;
+    display: block;
+    margin-top: -7px;
+
+}
 /*CSS input*/
-#header .headermenu .logo form .input{
+.input {
 	float: left;
     width: 162px;
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-top: 5px;
+    margin-left: 8px;
+    padding-top: 3px;
     border: 0;
     position: relative;
-    /*background: #fff;*/
+    background: #fff;
     height: 30px;
     text-indent: 10px;
     font-size: 13px;
-    border-top-left-radius:10px;
+}
+.btntop {
+    float: right;
+    width: 40px;
+    height: 35px;
+    border: 0;
+    background: none;
+}
+
+    /*border-top-left-radius:10px;
     border-bottom-left-radius:10px;/*bo viền*/
-  }
-#header .headermenu .logo form button img{
+
+button.btntop img{
  	width: 20px;
  	height: 20px;
  	display: block;
     margin: 1px auto 0;
  }
-#header .headermenu .logo form button{
- 	padding-top: 5px;
- 	float: left;
- 	margin-left: 0px;
- 	margin-top: 10px;
-    width: 40px;
-    height: 36px;
-    border: 0;
-    background: #FFFFFF;
-    border-bottom-right-radius:10px; border-top-right-radius:10px;
- }
-#header .headermenu .logo form button:hover{
- 	background-color: yellow;
- }
+
+button.btntop:hover{
+ 	background-color: #d300d6;
+}
 /*CSS định dạng list danh sách*/
-#header .headermenu .list ul {
+nav {
+	float: left;
+    width: auto;
+    height: 55px;
+    background: #000;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+nav a {
+	float: left;
+    display: table-cell;
+    width: 88px;
+    padding: 5px 0 3px 0;
+    color: #000;
+    background: #d300d6;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+nav a:hover {
+	background-color: #fff;
+}
+nav a.khuyenmai {
+	width: 90px;
+}
+nav a.mobile {
+	width: 89px;
+}
+/*nav a.actmenu {
+    background: #fdd504;
+}*/
+nav a img {
+	width: 30px;
+    height: 30px;
+    display: block;
+    margin: 2px auto 3px;
+}
+
+/*#header .headermenu nav.list ul {
 	float: left;
     width: 900px;
     margin-left: 350px;
-    margin-top: -55px; /* không đổi*/
+    margin-top: -55px;  không đổi
     padding-top: 5px;
     border: 0;
     position: static;
     height: 51px;
     text-indent: 10px;
 
-}
-#header .headermenu .list li{
+}*/
+/*#header .headermenu nav.list li{
 	width: 84px;
 	height: 55px;
 	margin-top: -5px;
@@ -120,7 +178,7 @@ h3, p {
 	text-align: center;
 
 }
-#header .headermenu .list li a img{
+#header .headermenu nav.list li a img{
 	width: 30px;
 	height: 30px;
 	display: block;
@@ -129,18 +187,18 @@ h3, p {
     margin-top: 5px;
    
 }
-#header .headermenu .list li a span{
+#header .headermenu nav.list li a span{
 	text-align: center;
 	color: #000;
     font-size: 11px;
 }
-#header .headermenu .list li:hover{
+#header .headermenu nav.list li:hover{
 	background-color: #ebebeb;
 	height: 55px;
 
 }
-#header .headermenu .list li:visited{
-	background-color: #d3006d;
+#header .headermenu nav.list li:visited{
+	background-color: #d3006d;*/
 }/*===================header=========================*/
 
 #slides {
@@ -409,12 +467,13 @@ h3, p {
 }
 /*===============================================CSS FOOTER====================================================================*/
 #footer{
+    background: #fff;
+    border-top: 3px solid #e8e8e8;
     width: 100%;
     min-width: 980px;
     margin: 15px auto 0 auto;
     overflow: hidden; /*chống tràn van bản*/
     clear: both;
-    background: #ebebeb;
 }
 #footer .hotro{
 	display: block;
