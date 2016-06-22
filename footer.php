@@ -1,4 +1,4 @@
-<div id="footer">
+<footer>
     <div class="hotro">
         <div class="thongtin" id="hotro1">
             <ul>
@@ -66,4 +66,4 @@
     </div><!--Địa chỉ-->
         
         <!--..........................................footer....................................................-->
-</div> <!-- footer -->
+</footer> <!-- footer -->

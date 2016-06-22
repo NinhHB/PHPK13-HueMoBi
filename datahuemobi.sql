@@ -1,21 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Jun 06, 2016 at 12:19 PM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 7.0.5
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `datahuemobi`
 --
@@ -29,8 +11,17 @@ SET time_zone = "+00:00";
 CREATE TABLE `category` (
   `id` int(11) NOT NULL,
   `name` varchar(200) NOT NULL,
-  `idCategory` int(11) NOT NULL
+  `parentId` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `category`
+--
+
+INSERT INTO `category` (`id`, `name`, `parentId`) VALUES
+(1, 'Smart Phone', 0),
+(2, 'Tablet', 0),
+(3, 'Laptop', 0);
 
 -- --------------------------------------------------------
 
@@ -67,15 +58,8 @@ CREATE TABLE `producer` (
 --
 
 INSERT INTO `producer` (`id`, `name`, `website`, `phone`, `email`, `avatar`) VALUES
-(5, 'Samsung', 'http://www.samsung.com/vn/home/', '0838213213', 'nguyenhuuninh150593@gmail.com', '../upload/producer/Samsung.png'),
-(6, 'LG', '', '', '', '../upload/producer/LG.png'),
-(7, 'ACER', '', '', '', '../upload/producer/acer.png'),
-(9, 'ASUS', '', '', '', '../upload/producer/asus_logo.png'),
-(10, 'Dell', '', '', '', '../upload/producer/dell.png'),
-(11, 'HP', '', '', '', '../upload/producer/hp.png'),
-(12, 'Apple', '', '', '', '../upload/producer/apple.png'),
-(13, 'HTC', '', '', '', '../upload/producer/htc.png'),
-(14, 'Huawei', '', '', '', '../upload/producer/huawei.png');
+(9, 'Samsung', 'http://www.samsung.com/vn/home/', '1666242588', 'nguyenhuuninh150593@gmail.com', '../upload/producer/Samsung.png'),
+(10, 'LG', 'http://www.lg.com/vn', '18001503', 'nguyenhuuninh150593@gmail.com', '../upload/producer/LG.png');
 
 -- --------------------------------------------------------
 
@@ -110,8 +94,17 @@ CREATE TABLE `user` (
   `address` varchar(500) NOT NULL,
   `birthday` date NOT NULL,
   `atm` varchar(20) NOT NULL,
-  `beginDate` date NOT NULL
+  `beginDate` date NOT NULL,
+  `status` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`, `fullName`, `genders`, `role`, `phone`, `email`, `address`, `birthday`, `atm`, `beginDate`, `status`) VALUES
+(2, 'Ninh', '60f738ba6c07698d3256ce5b29a28c10', 'Nguyen Huu Ninh', 1, '1', '01694332623', 'nguyenhuuninh150593@gmail.com', 'Binh Duong', '1993-05-15', '711A119988', '2016-06-16', 'work'),
+(3, 'Ninh1', '16a2d60ded5bbc215b881010f268e061', 'Ninh Nguyen Huu', 1, '2', '01694332623', 'nguyenhuuninh150593@gmail.com', 'Binh Duonh', '2016-06-19', '111', '2016-06-19', 'work');
 
 --
 -- Indexes for dumped tables
@@ -155,7 +148,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `customer`
 --
@@ -165,7 +158,7 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT for table `producer`
 --
 ALTER TABLE `producer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `product`
 --
@@ -175,7 +168,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

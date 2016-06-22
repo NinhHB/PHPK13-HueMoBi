@@ -107,9 +107,8 @@
 	</section> <!-- section -->
 	<?php include 'header.php'; ?>
 	<!-- header -->
-	<div id="footer">
-		<?php include 'footer.php'; ?>
-	</div> <!-- footer -->
+	<?php include 'footer.php'; ?>
+	<!-- footer -->
 	
 </body>
 </html>
