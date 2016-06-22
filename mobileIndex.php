@@ -104,11 +104,17 @@
     		</ul>
 
 		</div>	<!-- bread and filter -->
+
+
+		<ul id="lstprods" class="mobilecate">
+		</ul>
 	</section> <!-- section -->
 	<?php include 'header.php'; ?>
 	<!-- header -->
 	<?php include 'footer.php'; ?>
 	<!-- footer -->
-	
+	<p id="back-top" class="none" style="display: block;">
+        <a href="#top" title="Về Đầu Trang"><span></span></a>
+    </p>
 </body>
 </html>
