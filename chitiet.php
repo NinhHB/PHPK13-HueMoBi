@@ -281,6 +281,26 @@
                             </div>
                         </a>
                     </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/g5.jpg" alt="J5" /> 
+                            <div class="spham">
+                                <h3>SAM SUNG GALAXY J5</h3>
+                                <strong>5.000.000đ</strong>
+                                <a href="#"><button>MUA NGAY</button></a>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
         	</div>
         </div><!--content-->
