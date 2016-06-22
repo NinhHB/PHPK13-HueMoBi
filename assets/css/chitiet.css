@@ -153,10 +153,11 @@ li {
 #content .chitiet #chitiet3a{
 	float: left;
 	width: 40%;
-	border: 1px solid black;
+	border: 3px solid black;
 	margin-top: 54px;
 	background-color: white;
 	font-size: 20px;
+  border-radius: 8px;
 }
 #content .chitiet #chitiet3b{
   float: left;
@@ -194,7 +195,8 @@ li {
    .dacdiem .right{
    	display: block;
    	width:44%;
-   	border: 1px solid black;
+   	border: 3px solid black;
+    border-radius: 8px;
    	float: left;
    	background-color: white;
 
