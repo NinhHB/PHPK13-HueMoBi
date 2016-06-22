@@ -1,6 +1,7 @@
 a {
 	text-decoration: none;
 }
+
 section {
     max-width: 1200px;
     width: 100%;
@@ -16,21 +17,24 @@ section {
 	height: 50px;
 	margin-left: 0px;
 }
-.icon_home {
-	width: 15px;
-	height: 15px;
+img.icon_home {
+    width: 15px;
+    height: 15px;
+    margin: 1px 4px 0 0;
 }
 
+
 .breadandfilter {
-	float: left;
-	width: 1024px;
-	height: 30px;
+	
+	/*width: 1024px;
+	height: 30px;*/
 	display: block;
-	margin: 
     background: #f7f7f7;
     border: 1px solid #ececec;
 }
+
 .breadcrumb {
+    height: 40px;
 	float: left;
     overflow: hidden;
     margin: 0 auto 8px;
@@ -41,9 +45,31 @@ section {
     position: relative;
     z-index: 9;
 }
+.breadcrumb li {
+    float: left;
+    overflow: hidden;
+}
+/*.breadcrumb * {
+    float: left;
+    color: #666;
+    font-size: 12px;
+}*/
+.breadcrumb span {
+    float: left;
+    font-size: 24px;
+    color: #999;
+    padding: 3px 2px 0 0;
+    line-height: 1;
+}
+.breadcrumb li h1 {
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    color: #444;
+    font-weight: normal;
+}
 .breadcrumb li h1 a {
     padding-left: 2px;
-    font-size: 10px;
 }
 
 .breadcrumb li a {
@@ -53,7 +79,7 @@ section {
     color: #4a90e2;
     padding: 7px 5px;
 }
-
+/*ket thuc breadcrumd*/
 .filter {
     background: #f7f7f7;
     height: 45px;
@@ -104,6 +130,38 @@ section {
     overflow: hidden;
     transition: height .1s ease-in;
 }
+
+.filter li .dropfilter:before {
+    border-bottom-color: #ddd;
+    border-width: 11px;
+    margin-left: -11px;
+}
+.filter li .dropfilter:after, .filter li .dropfilter:before {
+    bottom: 93.6%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.filter li .dropfilter a:first-child {
+    border-top: 1px solid #ddd;
+    color: #288ad6;
+}
+.filter li .dropfilter a {
+    display: block;
+    padding: 10px;
+    font-size: 13px;
+    color: #555;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+
 .filter li .twocolum {
     display: block;
     position: absolute;
@@ -115,6 +173,11 @@ section {
     height: 0;
     overflow: hidden;
     transition: height .1s ease-in;
+}
+.filter li a {
+    display: block;
+    font-size: 13px;
+    color: #288ad6;
 }
 .filter li .twocolum .all {
     display: block;

@@ -14,14 +14,14 @@
 			<ul class="breadcrumb">
         		<li typeof="v:Breadcrumb">
         			<a href="index.php" title="Trang chủ">
-        				<img class="icon_home" src="assets/ico/icon_home.png"/>
+        				<img class="icon_home" src="assets/ico/icon_home.png" width="14px;" />
         			</a>
         			<span>›</span>
         		</li>
 
        			<li typeof="v:Breadcrumb">
             		<h1>
-            			<a href="dtdd" title="Điện thoại di động">178 Điện thoại di động</a> 
+            			<a href="dtdd" title="Điện thoại di động">20 Điện thoại di động</a> 
             			<span>›</span>
             		</h1>
         		</li>
@@ -29,9 +29,10 @@
 
     		<ul class="filter">
     			<li>
-    				<label>Từ 1-3 triệu
+    				<label>Mức giá
     					<span class="arrdown"></span>
     					<div class="dropfilter">
+    						::before
 				            <a href="/dtdd" title=""><i></i>Tất cả</a>
 				            <a href="/dtdd?p=duoi-1-trieu" title="">Dưới 1 triệu</a>
 				            <a href="/dtdd" title=""><i class="icontgdd-checkall"></i>Từ 1 - 3 triệu</a>
