@@ -7,6 +7,28 @@
 	<link rel="stylesheet" href="assets/css/mobileIndex.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<style>
+	#bannertop {
+      display: none;
+    }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.slides.min.js">
+    </script>
+
+    <script>
+    $(function(){
+      $("#bannertop").slidesjs({
+        width: 940,
+        height: 100,
+        start: 3,
+
+        
+
+      });
+
+    });
+    </script>
 </head>
 <body>
 	<section>
@@ -33,22 +55,24 @@
     					<span class="arrdown"></span>
     					<div class="dropfilter">
     						::before
-				            <a href="/dtdd" title=""><i></i>Tất cả</a>
+				            <a href="/dtdd" title=""><i class="logocheck"></i>Tất cả</a>
 				            <a href="/dtdd?p=duoi-1-trieu" title="">Dưới 1 triệu</a>
 				            <a href="/dtdd" title=""><i class="icontgdd-checkall"></i>Từ 1 - 3 triệu</a>
 				            <a href="/dtdd?p=tu-3-7-trieu" title="">Từ 3 - 7 triệu</a>
 				            <a href="/dtdd?p=tu-7-10-trieu" title="">Từ 7 - 10 triệu</a>
 				            <a href="/dtdd?p=tu-10-15-trieu" title="">Từ 10 - 15 triệu</a>
 				            <a href="/dtdd?p=tren-15-trieu" title="">Trên 15 triệu</a>
+				           	::after 
 				    	</div>
 				    </label>
-    			</li> <!-- 1- 3 triệu -->
+    			</li> <!-- Mức giá -->
 
     			<li>
 	                <label>Hãng sản xuất
 	    				<span class="arrdown"></span>            
 	    				<div class="twocolum">
-	                		<a class="all" href="#" title=""><i class="icontgdd-checkall"></i>Tất cả</a>
+	    					::before
+	                		<a class="all" href="#" title=""><i class="logocheck"></i>Tất cả</a>
 	            			<aside class="left">
 	                    		<a href="/dtdd-samsung?p=tu-1-3-trieu" title="">Samsung</a>
 	                    		<a href="/dtdd-nokia-microsoft?p=tu-1-3-trieu" title="">Nokia - Microsoft</a>
@@ -104,10 +128,70 @@
 
     		</ul>
 
+
 		</div>	<!-- bread and filter -->
 
+		<div class="fastsearch">
+	        <span>Tìm nhanh:</span>
+	        
+		    <a href="/dtdd-samsung" title="">Samsung</a>
+		    <a href="/dtdd-nokia-microsoft" title="">Nokia - Microsoft</a>
+		    <a href="/dtdd-apple-iphone" title="">Apple (iPhone)</a>
+		    <a href="/dtdd-sony" title="">Sony</a>
+		    <a href="/dtdd-oppo" title="">OPPO</a>
+		    <a href="/dtdd?p=duoi-1-trieu" title="">Dưới 1 triệu</a>
+		    <a href="/dtdd?p=tu-1-3-trieu" title="">Từ 1 - 3 triệu</a>
+		    <a href="/dtdd?p=tu-3-7-trieu" title="">Từ 3 - 7 triệu</a>
+		    <a href="/dtdd?p=tu-7-10-trieu" title="">Từ 7 - 10 triệu</a>
+		    <a href="/dtdd?p=tu-10-15-trieu" title="">Từ 10 - 15 triệu</a>
 
-		<ul id="lstprods" class="mobilecate">
+	        <div class="sortprice">
+
+		        <label>Giá cao đến thấp<b></b></label>
+			    <div class="listsort">
+			        <a href="/dtdd?o=xem-nhieu-nhat">Xem nhiều nhất</a>
+			        <a href="/dtdd?o=gia-cao-den-thap">Giá cao đến thấp</a>
+			        <a href="/dtdd?o=gia-thap-den-cao">Giá thấp đến cao</a>
+			    </div>
+			</div>
+
+	    </div> <!-- tìm kiếm nhanh -->
+
+	    <div id="bannertop" title="bannertop">
+	    	<div class="colbanner" style="width: 600px;">
+	    		<a href="#">
+	    			<img src="assets/img/banner/banner1.jpg">
+	    		</a>
+	    	</div>
+	    	<div class="colbanner" style="width: 600px;">
+	    		<a href="#">
+	    			<img src="assets/img/banner/banner2.jpg">
+	    		</a>
+	    	</div>
+	    	<div class="colbanner" style="width: 600px;">
+	    		<a href="#">
+	    			<img src="assets/img/banner/banner3.jpg">
+	    		</a>
+	    	</div>
+	    	<div class="colbanner" style="width: 600px;">
+	    		<a href="#">
+	    			<img src="assets/img/banner/banner4.jpg">
+	    		</a>
+	    	</div>
+        
+        </div>	<!-- tạo banner -->
+
+		<ul id="listproduct" class="mobilecate">
+			<li>
+				<label class="tagicon">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo"><h3>iPhone 6s 128GB</h3><strong>24.690.000₫</strong><span>Màn hình: Retina HD, 4.7 inches</span><span>HĐH: iOS 9</span><span>CPU: Apple A9, RAM 2GB</span><span>Camera: 12.0MP</span><span>Pin: 1715mAh</span><label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label><label><button type="button">Mua ngay</button></label></figure></li>
 		</ul>
 	</section> <!-- section -->
 	<?php include 'header.php'; ?>
