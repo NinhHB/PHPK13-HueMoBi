@@ -61,6 +61,22 @@
                                     <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
                                 </a>
                             </li>
+                             <li>
+                                <a href="#">
+                                    <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                    <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                    <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                    <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">
+                                    <h3>Đánh giá Xperia XA: "Siêu mẫu" mới của phân khúc tầm trung!</h3>
+                                    <figure style="height: 38px;">Tại sự kiện MWC 2016,&nbsp;Sony Xperia XA ...&nbsp;</figure>
+                                    <span>Trần Huỳnh Đức Hòa</span> <span>• 2 giờ trước</span>
+                                </a>
+                            </li>
                             <li>
                                 <a href="#">
                                     <img class="lazy" width="230" height="130" data-original="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" src="https://cdn2.tgdd.vn/Files/2016/06/17/843412/xperiaxabia-600x400.jpg" alt="Đánh giá Xperia XA: &quot;Siêu mẫu&quot; mới của phân khúc tầm trung!" style="display: block;">

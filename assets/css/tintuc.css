@@ -17,7 +17,8 @@
     overflow: hidden;
     background: #fff;
     border: 1px solid #f1f1f1;
-    border-radius: 4px;
+    border-radius: 10px;
+    text-align: 10%;
 }
 #content .content1 ul li a{
        color: black;
@@ -35,15 +36,17 @@
     overflow: hidden;
     font-size: 15px;
     display: inline-block;
+    margin-top: 15px;
 }
 #content .content2 .content2a ul li{
     display: block;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 37px;
     padding-right: 10px;
     position: relative;
     background-color: white;
     color: black;
+    border-radius: 10px;
 }
 #content .content2 .content2a ul li a{
     color: black;
@@ -67,7 +70,7 @@
     display: block;
     overflow: hidden;
     line-height: 1.3em;
-    font-size: 18px;
+    font-size: 22px;
     color: #4a4a4a;
     font-weight: 600;
     margin: 10px 0;
