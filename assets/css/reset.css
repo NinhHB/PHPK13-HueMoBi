@@ -38,7 +38,6 @@ footer,
 header,
 main, /* 2 */
 menu,
-nav,
 section,
 summary { /* 1 */
   display: block;
@@ -91,7 +90,7 @@ template, /* 1 */
  */
 
 a {
-  background-color: transparent; /* 1 */
+  /*background-color: transparent; *//* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
 }
 
@@ -233,7 +232,7 @@ samp {
  */
 
 figure {
-  margin: 1em 40px;
+  margin: 0;
 }
 
 /**

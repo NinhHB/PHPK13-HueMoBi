@@ -5,6 +5,7 @@ html {
 	padding: 0;
 }
 body{
+    background: #f0f0f0;
 	font-family: Arial, sans-serif;
 	min-width: 1024px;
 }
@@ -13,6 +14,9 @@ a {
 }
 li {
 	list-style: none;
+}
+p {
+    margin: 0;
 }
 /*strong {
 	color: red;
@@ -37,7 +41,7 @@ header{
 	position: absolute; /*định dạng để cố định header */
     top: 0; /*sát với viền trên trình duyệt*/
     min-width: 1024px;
-    background: #ebebeb;
+    background: #FE99FF;
     width: 100%;
     height: 55px;
     
@@ -94,6 +98,7 @@ a.logo img {
     height: 30px;
     text-indent: 10px;
     font-size: 13px;
+    outline: none;
 }
 .btntop {
     float: right;
@@ -114,17 +119,16 @@ button.btntop img{
  }
 
 button.btntop:hover{
- 	background-color: #d300d6;
+ 	background-color: #FE99FF;
 }
 /*CSS định dạng list danh sách*/
 nav {
-	float: left;
     width: auto;
     height: 55px;
     background: #000;
     margin: 0;
     padding: 0;
-    display: table;
+    display: flex;
 }
 nav a {
 	float: left;
@@ -132,7 +136,7 @@ nav a {
     width: 88px;
     padding: 5px 0 3px 0;
     color: #000;
-    background: #d300d6;
+    background: #FE99FF;
     font-size: 11px;
     text-align: center;
     text-transform: uppercase;
@@ -155,46 +159,56 @@ nav a img {
 	width: 30px;
     height: 30px;
     display: block;
-    margin: 2px auto 3px;
+    margin: 0px auto 3px;
 }
 /*===================header=========================*/
 
 #slides {
 	float: left;
 	width: 790px;
-	padding: 10px;
-	top: 0px;
-	left: 0px;
-
-	
-	margin-left: 65px;
-	position: static;
+	position: relative;
 }
-
-#slides a{
-	color: transparent;
-	float: left;
-	width: 45px;
-	height: 50px;
-	margin-left: 60px;
-	background: url(../img/featured-button-off.png) no-repeat;
-	
-}
-
 
 #slides a.slidesjs-previous.slidesjs-navigation{
-/*	padding: 260px;*/
-	background: url(../img/banner/prev.png) no-repeat;
-
-
+    background: url(../img/banner/prev2.png) no-repeat;
+    background-size: 60px;
+    color: transparent;
+    z-index: 10;
+    padding: 20px;
+    position: relative;
+    bottom: 180px;
+    float: left;
+    left: 12px;
 }
 
 #slides a.slidesjs-next.slidesjs-navigation{
-	
-	background: url(../img/banner/next.png) no-repeat;
-
-
+    background: url(../img/banner/next2.png) no-repeat;
+    background-size: 60px;
+    color: transparent;
+    z-index: 10;
+    padding: 20px;
+    position: relative;
+    bottom: 180px;
+    float: right;
 }
+
+#slides ul.slidesjs-pagination {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.slidesjs-pagination li {
+    width: auto;
+}
+li.slidesjs-pagination-item a {
+    width: 120px;
+    color: transparent;
+    float: left;
+    height: 50px;
+    background: url(../img/featured-button-off.png) no-repeat;
+}
+
 
 #slides a.active{
 	display: block;
@@ -204,39 +218,31 @@ nav a img {
 
 
 }
-#qcao{
+#qcao {
 	width: 30%;
     float: right;
     overflow: hidden;
-    margin-right: 114px;
+}
+#qcao a:first-child {
+    margin-bottom: 5px;
+}
+#qcao a {
+    display: block;
+}
+#qcao img {
+ margin-left: 10px;
 }
 
 
-/*#slides a.slidesjs-previous{
-	background: url(img/featured-button-on.png);
-}
-
-#slides a.slidesjs-next{
-	background: url(img/featured-button-on.png);
-}
-*/
-
-/*======================header javascrip============================*/
 /*=======================================================CSS conten=======================================================================*/
-#content {
-
-	padding-top: 450px;
-}
-
-#content .sanpham{
+.sanpham {
 	display: block;
     width: 850px;
     float: left;
-    margin-left: 23px;
-    margin-top: -15px;
+    margin-top: 10px;
 
 }
-#content .sanpham ul li{
+.sanpham li{
 	float: left;
 	background-color: white;
 	width: 48%;
@@ -245,20 +251,53 @@ nav a img {
 	margin-bottom: 10px;
 	background-color: #fff;
 	position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 1.1%;
+}
+.sanpham li a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    cursor: pointer;
+}
+.sanpham li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: url(https://cdn.tgdd.vn/v2015/Content/desktop/images/loading.svg) center center no-repeat;
+    min-height: 130px;
 }
 
-.sanpham a h3 {
-	font-size: 16px;
+.sanpham li h3 {
+    display: block;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 245px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 	color: black;
 	margin: 10px 0px 0px 10px;
 }
-.sanpham a strong {
+.sanpham li strong {
 	font-size: 14px;
 	margin-left: 10px;
+    float: left;
+    color: red;
 }
-.sanpham a button {
+.sanpham li div {
+    display: block;
+    font-size: 12px;
+    color: #ddd;
+    margin: 0 9px;
+}
+.sanpham li button {
 	background: #fff;
-	border: 1px solid #d300d6;
+	border: 1px solid #FE99FF;
 	border-radius: 4px;
 	padding: 6px 20px;
 	position: absolute;
@@ -266,12 +305,22 @@ nav a img {
 	z-index: 10;
 	bottom: 50px;
 	font-size: 14px;
-	color: #d300d6;
-
+	color: #FE99FF;
+    cursor: pointer;
 }
-
+.sanpham li label {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    padding: 5px 0;
+    width: 125px;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.3em;
+    text-align: center;
+}
 .sanpham a button:hover{
-	background: #d300d6;
+	background: #FE99FF;
 	color: #fff;
 }
 .sanpham a label {
@@ -285,44 +334,14 @@ nav a img {
 	width: 120px;
 }
 
-#content .sanpham ul li .hover a {
-    margin-top: 65px;
-    margin-right: 30px;
-	float: right;
-	display: inline;
-	line-height: 5px;
-	font-size: 12px;
-	color: blue;
-}
-#content .sanpham ul li .hover a:hover{
-	color: black;
-}
-
-#content .sanpham ul li .hover span {
-	display: block;
-    color: #666;
-    padding: 2px 6px;
-    text-decoration: none;
-    font-size: 13px;
-    line-height: 18px;
-}
-
-#content .sanpham ul li .hover h3 {
-	font-size: 16px;
-	margin-top: 20px;
-}
-
-#content .sanpham ul li a img{
-	text-align: center;
-}
-.sanpham li .hover{
-	display: block;
-	overflow: hidden;
+.sanpham li .hover {
+    display: block;
+    overflow: hidden;
     background: #fff;
-    padding: 10px 25px 10px 40px;
-    font-size: 14px;
+    padding: 25px 20px 0;
+    font-size: 12px;
     color: #fff;
-    line-height: 10px;
+    line-height: 16px;
     position: absolute;
     top: 0;
     left: 0;
@@ -331,26 +350,35 @@ nav a img {
     z-index: 9;
     opacity: 0;
     pointer-events: none;
-} 
-.sanpham li .hover button {
-	margin: 10px 0px 0px 10px;
-	position: absolute;
-	background-color: #ddd;
-	padding: 10px 20px;
-	border-style: 1px black;
-}
-.sanpham li .hover div{
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 10px;
 }
 
-.sanpham li .hover strong{
-	position: absolute;
-    float: left;
-    top: 30px;
-    right: 15px;
+.sanpham li .hover strong {
+    position: absolute;
+    top: 26px;
+    right: 6px;
+    font-size: 16px;
+    color: red;
 }
-
+.sanpham li .hover div {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sanpham li .hover span {
+	display: block;
+    color: #666;
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+}
+.sanpham li .hover label {
+    color: blue;
+    bottom: 20px;
+}
+.sanpham li .hover label:hover {
+    color: red;
+}
 .sanpham li:hover .hover{
 	opacity: 1;
 	-webkit-transition-duration: .5s;
@@ -358,65 +386,68 @@ nav a img {
 
 }
 
+ /*============================ket thuc style san pham==============================*/
+
+
 /*sản phẩm*/
-#content .tintuc{
+ /*.tintuc{
 	width: 385px;
 	float: left;
 	overflow: hidden;
 	margin-left: 2px;
 }
-#content .tintuc .tieude{
-	border-bottom: 2px solid #d300d6;
+ .tintuc .tieude{
+	border-bottom: 2px solid #FE99FF;
 }
-#content .tintuc .tieude .span{
+ .tintuc .tieude .span{
 	color: #fff;
     display: inline-block;
     padding: 5px 30px 1px 10px;
-    background: url(../img/conten/border-title.png) #d300d6 right center no-repeat;
+    background: url(../img/conten/border-title.png) #FE99FF right center no-repeat;
 }
-#content .tintuc .tieude .rightright{
+ .tintuc .tieude .rightright{
 	float: right;
     padding: 3px 15px;
     background: #e6e6e6;
     font-size: 11px;
-    color: #d300d6;
+    color: #FE99FF;
     text-transform: uppercase;
     border-radius: 2px;
 }
 
 
-#content .tintuc{
+ .tintuc{
 	line-height: 20px;
 	font-size: 16px;
 	overflow: hidden;
 }
-#content .tintuc .noidung ul {
+ .tintuc .noidung ul {
 	width: 385px;
     height: auto;
     float: left;
     margin-top: 0;
     margin-left: -40px;
 }
-#content .tintuc .noidung li {
+ .tintuc .noidung li {
 	display: block;
 	padding: 9px 10px 9px 10px;
 	border-bottom: 1px solid #ededed;
 	background: #fff;
 	height: 50px;
 }
-#content .tintuc .noidung ul li a img{
+ .tintuc .noidung ul li a img{
 	width: 100px;
 	height: 50px;
 	margin-left: 10px;
 	float: right;
 }
 
-#content .tintuc .noidung .noidungright span {
+ .tintuc .noidung .noidungright span {
 	color: black;
 	font-size: 14px;
-}
+}*/
 /*tin tức*/
-#content .button{
+ .button{
 	display: block;
     overflow: hidden;
     width: 100%;
@@ -453,7 +484,7 @@ footer {
     display: block;
     overflow: hidden;
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
     color: #444;
 }
 .colfoot li h4 {
@@ -461,7 +492,7 @@ footer {
     line-height: 1.3em;
     text-transform: uppercase;
     display: block;
-    color: #999;
+    color: #FEBAFF;
     margin-bottom: 5px;
 }
 .colfoot li a {
@@ -482,6 +513,11 @@ footer {
 }
 .colfoot li a.viewmb img {
 	width: 25px;
+    margin: -8px;
+    padding-left: 9px;
+}
+.colfoot li a span {
+    color: black;
 }
 .answers {
     width: 25%;
@@ -541,6 +577,7 @@ footer {
 }
 .registered a img {
 	width: 130px;
+    padding: 10px;
 }
 .ssl {
     float: right;
@@ -548,14 +585,15 @@ footer {
     text-align: center;
 }
 .ssl a img {
-	width: 150px;
+	width: 115px;
+    padding: 10px;
 }
 .none {
 	display: none;
 }
 #back-top span:before {
     cursor: pointer;
-    background: #d300d6;
+    background: #FE99FF;
     width: 40px;
     position: fixed;
     right: 20px;
@@ -565,9 +603,6 @@ footer {
     line-height: 40px;
     font-size: 18px;
     -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    -transition: all .2s linear;
     color: #000;
     content: "▲";
     opacity: .7;

@@ -110,3 +110,6 @@
     </div>
         <!--..........................................footer....................................................-->
 </footer> <!-- footer -->
+    <p id="back-top" class="none" style="display: block; position:fixed;"> <!-- nut tro lai dau trang -->
+        <a href="#top" title="Về Đầu Trang"><span></span></a>
+    </p>

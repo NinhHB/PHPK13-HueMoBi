@@ -4,9 +4,10 @@
 	<title>Điện thoại, smartphone mới, giá tốt, có khuyến mãi - Huemobile.com</title>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="assets/ico/logohuemobi16x16.png">
-	<link rel="stylesheet" href="assets/css/mobileIndex.css">
-	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/mobileIndex.css">
+	
 	<style>
 	#bannertop {
       display: none;
@@ -21,7 +22,7 @@
       $("#bannertop").slidesjs({
         width: 940,
         height: 100,
-        start: 3,
+        start: 1,
 
         
 
@@ -36,14 +37,15 @@
 			<ul class="breadcrumb">
         		<li typeof="v:Breadcrumb">
         			<a href="index.php" title="Trang chủ">
-        				<img class="icon_home" src="assets/ico/icon_home.png" width="14px;" />
+        				<img class="icon_home" src="assets/ico/icon_home.png"/> <!-- open main page -->
         			</a>
-        			<span>›</span>
+        			
         		</li>
 
        			<li typeof="v:Breadcrumb">
             		<h1>
-            			<a href="dtdd" title="Điện thoại di động">20 Điện thoại di động</a> 
+            			<span>›</span>
+            			<a href="" target="_self" title="Điện thoại di động">20 Điện thoại di động</a> <!-- open mobile page -->
             			<span>›</span>
             		</h1>
         		</li>
@@ -131,7 +133,7 @@
 
 		</div>	<!-- bread and filter -->
 
-		<div class="fastsearch">
+		<div class="fastsearch"><!-- tìm kiếm nhanh -->
 	        <span>Tìm nhanh:</span>
 	        
 		    <a href="/dtdd-samsung" title="">Samsung</a>
@@ -157,8 +159,8 @@
 
 	    </div> <!-- tìm kiếm nhanh -->
 
-	    <div id="bannertop" title="bannertop">
-	    	<div class="colbanner" style="width: 600px;">
+	    <div id="bannertop" title="bannertop" style="height:100px;">
+    		<div class="colbanner" style="width: 600px;">
 	    		<a href="#">
 	    			<img src="assets/img/banner/banner1.jpg">
 	    		</a>
@@ -178,12 +180,12 @@
 	    			<img src="assets/img/banner/banner4.jpg">
 	    		</a>
 	    	</div>
-        
+
         </div>	<!-- tạo banner -->
 
-		<ul id="listproduct" class="mobilecate">
+		<ul id="listproduct" class="mobilecate"> <!-- danh muc mobile -->
 			<li>
-				<label class="tagicon">Trả góp 0%</label>
+				<label class="tragop">Trả góp 0%</label>
 				<a href="/dtdd/iphone-6s-128gb">
 					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
 					<h3>iPhone 6s 128GB</h3>
@@ -191,15 +193,200 @@
 					<div class="promo">Vòng quay 100% trúng quà</div>
 					<label class="countbuy"></label>
 				</a>
-				<figure class="bginfo"><h3>iPhone 6s 128GB</h3><strong>24.690.000₫</strong><span>Màn hình: Retina HD, 4.7 inches</span><span>HĐH: iOS 9</span><span>CPU: Apple A9, RAM 2GB</span><span>Camera: 12.0MP</span><span>Pin: 1715mAh</span><label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label><label><button type="button">Mua ngay</button></label></figure></li>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
+
+			<li>
+				<label class="tragop">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
+
+			<li>
+				<label class="tragop">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
+
+			<li>
+				<label class="tragop">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
+
+			<li>
+				<label class="tragop">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
+
+			<li>
+				<label class="tragop">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
+
+			<li>
+				<label class="tragop">Trả góp 0%</label>
+				<a href="/dtdd/iphone-6s-128gb">
+					<img src="https://cdn3.tgdd.vn/Products/Images/42/73703/iphone-6s-128gb-200x200.jpg" alt="Điện thoại di động iPhone 6s 128GB" width="120" height="120">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div class="promo">Vòng quay 100% trúng quà</div>
+					<label class="countbuy"></label>
+				</a>
+				<figure class="bginfo">
+					<h3>iPhone 6s 128GB</h3>
+					<strong>24.690.000₫</strong>
+					<div></div>
+					<span>Màn hình: Retina HD, 4.7 inches</span>
+					<span>HĐH: iOS 9</span>
+					<span>CPU: Apple A9, RAM 2GB</span>
+					<span>Camera: 12.0MP</span>
+					<span>Pin: 1715mAh</span>
+					<label class="compr" onclick="qcp_addProdQcp('73703','42','iPhone 6s 128GB')">So sánh với...</label>
+					<label>
+						<button type="button">Mua ngay</button>
+					</label>
+				</figure>
+			</li>
 		</ul>
 	</section> <!-- section -->
+
+	<div class="keyword">
+	    <span>Xem nhiều: </span>
+        <a href="https://www.thegioididong.com/dtdd-nokia-microsoft" target="_blank">
+            Microsoft Lumia</a>
+        <a href="https://www.thegioididong.com/tim-kiem?key=iphone+6s+h%E1%BB%93ng" target="_blank">
+•                 iphone 6s màu hồng</a>
+        <a href="https://www.thegioididong.com/tim-kiem?key=smartphone+gia+re" target="_blank">
+•                 Smartphone giá rẻ</a>
+        <a href="https://www.thegioididong.com/dtdd-nokia" target="_blank">
+•                 Điện thoại Microsoft</a>
+        <a href="https://www.thegioididong.com/dtdd/galaxy-j1-2016" target="_blank">
+•                 Galaxy J1 2016</a>
+        <a href="https://www.thegioididong.com/dtdd/sony-xperia-m4-aqua-lte" target="_blank">
+•                 Sony Xperia M4 Aqua LTE</a>
+        <a href="https://www.thegioididong.com/dtdd/mobiistar-lai-buddy" target="_blank">
+•                 Mobiistar Buddy</a>
+        <a href="https://www.thegioididong.com/dtdd/zte-blade-wave-3" target="_blank">
+•                 ZTE Blade Wave 3</a>
+
+	</div> <!-- tu khoa xem nhieu nhat -->
+
+
 	<?php include 'header.php'; ?>
 	<!-- header -->
 	<?php include 'footer.php'; ?>
 	<!-- footer -->
-	<p id="back-top" class="none" style="display: block;">
-        <a href="#top" title="Về Đầu Trang"><span></span></a>
-    </p>
+	
 </body>
 </html>
