@@ -51,7 +51,57 @@
             <a href="#"><img src="assets/img/banner/qcao2.jpg" alt="Hình ảnh" /></a>
         </div><!--Hai hình quảng cáo-->  
 
-
+        <aside class="tincongnghe">
+                <figure>
+                    <a class="right" href="#"><h2>TIN CÔNG NGHỆ</h2></a>
+                    <a href="#">xem thêm</a>
+                </figure>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/content/samsung.png" alt="SamSung" />
+                            <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
+                        </a>
+                    </li>
+                </ul>
+        </aside><!--tin tức-->        
+           
         <ul class="sanpham">
             <li>
                 <a href="#">
@@ -150,6 +200,8 @@
                     <label> So sánh với...</label>
                 </figure>
             </li>
+        </ul>
+        <ul class="sanpham fullwidth">
             <li>
                 <a href="#">
                     <img class="lazyproduct" width="388" height="180" data-original="https://cdn3.tgdd.vn/Products/Images/42/74463/Feature/oppo-f1-600-277-4.jpg" src="https://cdn3.tgdd.vn/Products/Images/42/74463/Feature/oppo-f1-600-277-4.jpg" style="display: block;">
@@ -201,61 +253,126 @@
                     <label> So sánh với...</label>
                 </figure>
             </li>
+
+            <li>
+                <a href="#">
+                    <img class="lazyproduct" width="388" height="180" data-original="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" src="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" style="display: block;">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div class="clr"></div>
+                    <div></div>
+                    <button type="button">Trả góp 0%</button>
+                    <label>Hơn 10.400 lượt mua tuần qua</label>
+
+                </a>
+                <figure class="hover">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div>
+                        
+                    </div>
+                    <span>Màn hình: qHD, 5.0 inches</span>
+                    <span>HĐH: Android 5.1</span>
+                    <span>CPU: 4 nhân 1.3GHz, RAM 1GB</span>
+                    <span>Camera: 8.0MP, 2 SIM</span>
+                    <span>Dung lượng pin: 2420 mAh</span>
+                    <label> So sánh với...</label>
+                </figure>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img class="lazyproduct" width="388" height="180" data-original="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" src="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" style="display: block;">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div class="clr"></div>
+                    <div></div>
+                    <button type="button">Trả góp 0%</button>
+                    <label>Hơn 10.400 lượt mua tuần qua</label>
+
+                </a>
+                <figure class="hover">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div>
+                        
+                    </div>
+                    <span>Màn hình: qHD, 5.0 inches</span>
+                    <span>HĐH: Android 5.1</span>
+                    <span>CPU: 4 nhân 1.3GHz, RAM 1GB</span>
+                    <span>Camera: 8.0MP, 2 SIM</span>
+                    <span>Dung lượng pin: 2420 mAh</span>
+                    <label> So sánh với...</label>
+                </figure>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img class="lazyproduct" width="388" height="180" data-original="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" src="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" style="display: block;">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div class="clr"></div>
+                    <div></div>
+                    <button type="button">Trả góp 0%</button>
+                    <label>Hơn 10.400 lượt mua tuần qua</label>
+
+                </a>
+                <figure class="hover">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div>
+                        
+                    </div>
+                    <span>Màn hình: qHD, 5.0 inches</span>
+                    <span>HĐH: Android 5.1</span>
+                    <span>CPU: 4 nhân 1.3GHz, RAM 1GB</span>
+                    <span>Camera: 8.0MP, 2 SIM</span>
+                    <span>Dung lượng pin: 2420 mAh</span>
+                    <label> So sánh với...</label>
+                </figure>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img class="lazyproduct" width="388" height="180" data-original="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" src="https://cdn4.tgdd.vn/Products/Images/42/73669/Feature/oppo-neo-7-600-277.jpg" style="display: block;">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div class="clr"></div>
+                    <div></div>
+                    <button type="button">Trả góp 0%</button>
+                    <label>Hơn 10.400 lượt mua tuần qua</label>
+
+                </a>
+                <figure class="hover">
+                    <h3>OPPO Neo 7</h3>
+                    <strong>3.690.000₫</strong>
+                    <div>
+                        
+                    </div>
+                    <span>Màn hình: qHD, 5.0 inches</span>
+                    <span>HĐH: Android 5.1</span>
+                    <span>CPU: 4 nhân 1.3GHz, RAM 1GB</span>
+                    <span>Camera: 8.0MP, 2 SIM</span>
+                    <span>Dung lượng pin: 2420 mAh</span>
+                    <label> So sánh với...</label>
+                </figure>
+            </li>
         </ul>
-            <div class="tincongnghe">
-                <div class="tieude">
-                    <a class="right" href="#"><span class="span">TIN CÔNG NGHỆ</span></a>
-                    <a class="rightright" href="#"><span class="span2">xem thêm </span></a>
-                </div>
-                <div class="noidung">
-                    <ul>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="noidungright">
-                                <img src="assets/img/content/samsung.png" alt="SamSung" />
-                                <span>Samsung dẫn đầu về công nghệ màn hình uốn dẻo</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div><!--tin tức-->
-           
-        </div> <!-- content -->
+        <!-- sản phẩm -->
+
+        <div class="moreproduct">
+            <a href="khuyenmai.php">Khuyến mãi tháng 6</a>
+            <a href="mobileIndex.php"><span>179</span>
+                điện thoại</a>
+            <a href="tabletIndex.php"><span>43</span>
+                máy tính bảng</a>
+            <a href="laptopIndex.php"><span>67</span>
+                laptop</a>
+            <a href="phukienIndex.php"><span>1649</span> <!-- điền code php vào để xuất ra số lượng  -->
+                phụ kiện</a>
+        </div> <!-- thống kê số lượng sản phẩ từng danh mục và trỏ đến danh mục tương ứng khi click vào -->
+        
+            
     </section><!--section-->
     <?php include 'header.php';?>
     <?php include 'footer.php';?> <!-- footer -->

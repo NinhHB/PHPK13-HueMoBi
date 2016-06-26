@@ -418,3 +418,12 @@ textarea {
   font: inherit; /* 2 */
 }/* CSS Document */
 
+ul, menu, dir, h2 {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}

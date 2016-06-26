@@ -1,3 +1,6 @@
+body {
+    background: #fff;
+}
 a {
 	text-decoration: none;
 }
@@ -379,7 +382,9 @@ img.icon_home {
     border-left: 1px solid #ececec;
     padding: 0;
 }
-
+.mobilecate li.feature {
+    width: 33.25%;
+}
 .mobilecate li {
     float: left;
     position: relative;
@@ -533,18 +538,4 @@ img.icon_home {
     border-bottom: 1px solid #ddd; 
     margin-bottom: 5px;
 }
-/*=============keyword====================*/
-.keyword {
-    display: block;
-    text-align: center;
-    overflow: hidden;
-    background-color: #e8e8e8;
-    margin: 10px auto;
-    margin-bottom: -15px;
-}
-.keyword a, .keyword span {
-    display: inline-block;
-    padding: 8px;
-    font-size: 13px;
-    color: #777;
-}
+

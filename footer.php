@@ -1,3 +1,24 @@
+<div class="keyword">
+        <span>Xem nhiều: </span>
+        <a href="https://www.thegioididong.com/dtdd-nokia-microsoft" target="_blank">
+            Microsoft Lumia</a>
+        <a href="https://www.thegioididong.com/tim-kiem?key=iphone+6s+h%E1%BB%93ng" target="_blank">
+•                 iphone 6s màu hồng</a>
+        <a href="https://www.thegioididong.com/tim-kiem?key=smartphone+gia+re" target="_blank">
+•                 Smartphone giá rẻ</a>
+        <a href="https://www.thegioididong.com/dtdd-nokia" target="_blank">
+•                 Điện thoại Microsoft</a>
+        <a href="https://www.thegioididong.com/dtdd/galaxy-j1-2016" target="_blank">
+•                 Galaxy J1 2016</a>
+        <a href="https://www.thegioididong.com/dtdd/sony-xperia-m4-aqua-lte" target="_blank">
+•                 Sony Xperia M4 Aqua LTE</a>
+        <a href="https://www.thegioididong.com/dtdd/mobiistar-lai-buddy" target="_blank">
+•                 Mobiistar Buddy</a>
+        <a href="https://www.thegioididong.com/dtdd/zte-blade-wave-3" target="_blank">
+•                 ZTE Blade Wave 3</a>
+
+</div> <!-- tu khoa xem nhieu nhat -->
+
 <footer>
     <div class="rowfoot1">
         <ul class="colfoot">
