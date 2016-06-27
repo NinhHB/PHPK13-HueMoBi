@@ -25,16 +25,16 @@ h3, p {
 	color: black;
 }*/
 
-#container{
+/*#container{
     max-width: 1200px;
     width: 100%;
     min-width: 980px;
     margin: 65px auto 0;
-	/*width:960px;
-	margin:0 auto;*/
+	width:960px;
+	margin:0 auto;
 		
 	}
-/*CSS định dạng LOGO*/
+CSS định dạng LOGO*/
 header{
 	position: absolute; /*định dạng để cố định header */
     top: 0; /*sát với viền trên trình duyệt*/
@@ -58,7 +58,7 @@ header{
     background: #000;
     
  }
- #search {
+#search {
     float: left;
     width: 220px;
     height: 35px;

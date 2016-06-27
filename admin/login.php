@@ -7,12 +7,15 @@ $conn = Database::connect();
 if (!empty($_POST)) {
   	$username=$_POST['username'];
     $password=$_POST['password'];
-  $sql="SELECT user.id, user.username, user.fullName, user.password, role.name, role.key FROM user WHERE user.username='$username'";
-  //INNER JOIN role ON user.role=role.id 
-  //vì không có bảng ROLE nên tạm thời bỏ dòng INNER JOIN role ở trên
+  $sql="SELECT user.id, user.username, user.fullName, user.password, role.name, role.keyword FROM user INNER JOIN role ON user.role=role.id WHERE user.username='$username'";
+  
   $results = mysqli_query($conn, $sql);
   if ($results->num_rows > 0) {
-    $data = $results->fetch_assoc();
+    $data = $results->fetch_array();
+    // echo "<pre>"; hiển thị ra mảng đăng nhập
+    // var_dump($data);
+    // echo "</pre>"; 
+    // die;
     if(md5($password)!=$data['password']){
           echo '<script language="javascript">';
           echo 'alert("Mật khẩu không chính xác !")';

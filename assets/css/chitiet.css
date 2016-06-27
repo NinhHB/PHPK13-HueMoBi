@@ -2,7 +2,6 @@
 /* CSS Document */
 body{
 	font-family: sans-serif;
-	background: #f0f0f0;
 }
 
 a {
@@ -11,272 +10,242 @@ a {
 li {
 	list-style: none;
 }
-#contener{
-	/*width:960px;
-	margin:0 auto;*/
-		
-	}
-/*CSS định dạng LOGO*/
-
-#header{
-    min-width: 1024px;
-    background: yellow;
-    width: 100%;
-	}
-#header .headermenu{
-    max-width: 1200px;
-    min-width: 1024px;
-    width: 100%;
-    height: 55px;
-    margin: auto;
-    position: relative;
-    display: block;	
- }
-#header .headermenu .logo{
-	background: black;
-	width:400px;
-	height: 55px;
+#topdetail {
+  margin-top: 60px;
 }
-#header .headermenu .logo a{
-	float: left;
-    width: 165px;
-    display: block;
+/*==Style cho menu===*/
+#menu {
+  width: 100%;
+  height: 80px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 60px;
+  border-bottom: 1px solid #ddd;
 }
-#header .headermenu .logo a img {
-	height:45px;
-	margin-top: 10px;
-	margin-left: 10px;
-	}
-/*CSS input*/
-#header .headermenu .logo form .input{
-	float: left;
-    width: 162px;
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-top: 5px;
-    border: 0;
-    position: relative;
-    /*background: #fff;*/
-    height: 30px;
-    text-indent: 10px;
-    font-size: 13px;
-    border-top-left-radius:10px;border-bottom-left-radius:10px;/*bo viền*/
-  }
- #header .headermenu .logo form button img{
- 	width: 20px;
- 	height: 20px;
- 	display: block;
-    margin: 1px auto 0;
- }
- #header .headermenu .logo form button{
- 	padding-top: 5px;
- 	float: left;
- 	margin-left: 0px;
- 	margin-top: 10px;
-    width: 40px;
-    height: 36px;
-    border: 0;
-    background: #FFFFFF;
-    border-bottom-right-radius:10px; border-top-right-radius:10px;
- }
- #header .headermenu .logo form button:hover{
- 	background-color: yellow;
- }
-/*CSS định dạng list danh sách*/
-#header .headermenu .list ul {
-	 float: left;
-    width: 900px;
-    margin-left: 350px;
-    margin-top: -65px;
-    padding-top: 5px;
-    border: 0;
-    position: static;
-    height: 51px;
-    text-indent: 10px;
-}
-#header .headermenu .list li{
-	width: 80px;
-	display: inline-table;
-	text-align:center;
-}
-#header .headermenu .list li a img{
-	width: 40px;
-	height: 40px;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-}
-#header .headermenu .list li a span{
-	text-align: center;
-	color: #000;
-    font-size: 12px;
-}
-#header .headermenu .list li:hover, #header .headermenu .list li a:hover{
-	background-color: #ebebeb;
-}
-#header .headermenu .list li:visited, #header .headermenu .list li a:visited{
-	background-color: #ebebeb;
-
-}
-
-/*===================header=========================*/
-
-#content{
-	display: block;
-	margin: 10px auto;
-	width: 90%;
-	background-color: white;
-}
-
-#content .chitiet{
-	float: left;
-	background-color: white;
-}
-#content .chitiet h1{
-	text-align: center;
-}
-#content .chitiet .chitiet1{
-	display: inline-block;
-	width: 10%;
-	float: left;
-    position: relative;
-    z-index: 9;
-    margin-left: -43px;
-    margin-top:54px;
-}
-#content .chitiet .chitiet2{
-	width: 40%;
-	float: left;
-	display: inline-block;
-	margin: 50px;
-}
-#content .chitiet #chitiet3a{
-	float: left;
-	width: 40%;
-	border: 3px solid black;
-	margin-top: 54px;
-	background-color: white;
-	font-size: 20px;
-  border-radius: 8px;
-}
-#content .chitiet #chitiet3b{
+#menu ul {
+  background: #fff;
+  list-style-type: none;
+/*  text-align: center;*/
+  width: 100%;
   float: left;
-  width: 40%;
-  margin-top: 54px;
-  background-color: white;
-  font-size: 20px;
 }
-#content .chitiet  #chitiet3b a{
-	display: block;
-    margin-top: 15px;
-    padding: 9px 0;
-    width: 94.37%;
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    border: 1px solid #d97f00;
-    background-color: red;
-    margin-left: auto;
-    margin-right: auto;
-   }/*-------------------------chi tiết---------------------*/
- #content  .dacdiem{
-   	background-color: white;
-   	margin: 10px;
-   	display: block;
-   }
-  #content .dacdiem img{
-   	width: 45%;
-   	height: 45%;
-   	float: left;
-   	display: block;
-   }
-   .dacdiem .right{
-   	display: block;
-   	width:44%;
-   	border: 3px solid black;
-    border-radius: 8px;
-   	float: left;
-   	background-color: white;
+#menu li {
+  color: blue;
+  display: inline-block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+/*  margin-left: -5px;*/
+}
+/*#menu li.drop {
+  width: 145px;
+}*/
+/*#menu li {
+  color: #f1f1f1;
+  float: left;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+}
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}*/
+#menu a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+#menu .drop a{
+  text-align: left;
+}
+#menu .submenu a{
+  text-align: center;
+}
+#menu a:hover {
+  
+  color: violet;
+}
+/*==Dropdown Menu==*/
+.submenu li {
+  width: 145px; 
+}
 
-   }
-   .xemthem{
-   	display: block;
-   }
-#content .sanpham2 {
-	width: 100%;
-    overflow: hidden; /*chống tràn van bản*/
-    float: left;
-    text-align: center;
-    margin-top: 10px;
+#menu li {
+ position: relative;
 }
-#content .sanpham2 h2{
-	background-color: red;
-	color: white;
-	display: inline;
-	border-radius: 4px;
-	font-size: 50px;
-	
-	margin-bottom: 10px;
+.submenu {
+ display: none;
+ position: absolute;
 }
-#content .sanpham2 ul li{
-	width: 23%;
-	height: 23%;
+#menu li:hover .submenu {
+ display: block;
+}
+.submenu li {
+ margin-left: 0 !important;
+ background: #e6e6e6;
+}
+/*kết thúc dropdown menu*/
+#menu .nameproduct {
+  float: left;
+}
+#menu .nameproduct h1 {
+  font-size: 26px;
+  color: #333;
+  height: auto;
+  float: left;
+  margin: 0;
+}
+.nameproduct span {
+  float: left;
+  font-size: 13px;
+  color: gray;
+  margin-left: 13px;
+  margin-top: 13px;
+}
+#topdetail section {
+  margin-top: 30px;
+}
+section {
+  overflow: hidden;
+  max-width: 1200px;
+  width: 100%;
+  min-width: 980px;
+  margin: 65px auto 0;
+}
+
+
+
+
+
+.chitiet {
+  float: right;
+  width: 91.667%;
+  max-width: 1100px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.picture {
+  float: left;
+  overflow: hidden;
+  width: 38.637%;
+  position: relative;
+}
+.picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 10px;
+  cursor: pointer;
+}
+.price_pro {
+  float: left;
+  position: relative;
+  width: 32.274%;
+}
+.price_pro strong {
+  display: block;
+  font-size: 22px;
+  color: #d0021b;
+  margin-bottom: 6px;
+}
+.info-promo {
+  display: block;
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #27ae60;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.promo {
+  display: block;
+  background: #f6f5f5;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+.promo span {
+  margin: 10px;
+  display: block;
+  overflow: hidden;
+  font-size: 13px;
+  color: #2c3e50;
+}
+.promo span:before {
+  display: inline-block;
+  content: "•";
+  margin-right: 5px;
+}
+
+.chitietkhac {
+  display: block;
+  overflow: hidden;
+  float: left;
+}
+  
+
+
+
+
+}/*-------------------------chi tiết---------------------*/
+.dacdiem{
+	background-color: white;
+	margin: 10px;
+	display: block;
+}
+.dacdiem img{
+	width: 45%;
+	height: 45%;
+	float: left;
+	display: block;
+}
+.dacdiem .right{
+	display: block;
+	width:44%;
+	border: 3px solid black;
+border-radius: 8px;
 	float: left;
 	background-color: white;
-	margin-bottom: 10px;
-	margin-right: 2%;
+
 }
-#content .sanpham2 img{
-	width: 100%;
-	float: left;
+.xemthem{
 	display: block;
-	margin-left: 0PX;
 }
-/*===============================================CSS FOOTER====================================================================*/
-#footer{
-    width: 100%;
-    min-width: 980px;
-    margin: 15px auto 0 auto;
-    overflow: hidden; /*chống tràn van bản*/
-    clear: both;
+.sanpham2 {
+width: 100%;
+overflow: hidden; /*chống tràn van bản*/
+float: left;
+text-align: center;
+margin-top: 10px;
 }
-#footer .hotro{
-	display: block;
-    overflow: hidden;
-    margin: 15px auto;
-    width: 100%;
-    min-width: 980px;
-    margin-bottom: 0;
-    background-color: white;
+.sanpham2 h2{
+background-color: red;
+color: white;
+display: inline;
+border-radius: 4px;
+font-size: 50px;
+
+margin-bottom: 10px;
 }
-#footer .hotro .thongtin{
-	float: left;
-    width: 385px;
-    font-size: 15px;
-    line-height:20px;
+.sanpham2 ul li{
+width: 23%;
+height: 23%;
+float: left;
+background-color: white;
+margin-bottom: 10px;
+margin-right: 2%;
 }
-#footer .address{
-	width: 100%;
-    min-width: 980px;
-    margin: 10px auto 0;
-    overflow: hidden;
-    background: #f0f0f0;
-    padding: 15px 0;
-}
-#footer .address .address1{
-	display: block;
-	width: 388;
-	float: left;
-	margin-right: 111px;
-	font-size: 15px;
-	line-height:20px;
-}
-#footer .address #ad1{
-	margin-left: 40px;
-}
-#footer .address #ad2 a{
-	display: inline-table;
-	width: 78px;
+.sanpham2 img{
+width: 100%;
+float: left;
+display: block;
+margin-left: 0PX;
 }
