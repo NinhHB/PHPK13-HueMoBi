@@ -8,10 +8,10 @@ if (!empty($_POST)) {
   	$username=$_POST['username'];
     $password=$_POST['password'];
   $sql="SELECT user.id, user.username, user.fullName, user.password, role.name, role.keyword FROM user INNER JOIN role ON user.role=role.id WHERE user.username='$username'";
-  
+
   $results = mysqli_query($conn, $sql);
   if ($results->num_rows > 0) {
-    $data = $results->fetch_array();
+    $data = $results->fetch_assoc();
     // echo "<pre>"; hiển thị ra mảng đăng nhập
     // var_dump($data);
     // echo "</pre>"; 
