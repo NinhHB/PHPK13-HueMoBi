@@ -23,6 +23,7 @@
           padding-right: 5px;
         }
       }
+
     </style>
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 

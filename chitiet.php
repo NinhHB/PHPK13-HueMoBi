@@ -108,12 +108,21 @@
                            <a href="#">Tìm hiểu</a>
                         </li>
                     </ul>
+                    <a href="#" class="muangay">Mua ngay
+                        <span>Giao tận nơi hoặc nhận ở cửa hàng</span>
+                    </a>
+                    <a href="#" class="tragop">Trả góp lãi suất 0%
+                        <span>Xét duyệt qua điện thoại</span>
+                    </a>
+                    <div class="goidatmua">Gọi đặt mua 
+                        <b>1800.1060</b> hoặc 
+                        <b>(08) 38 102.102 &nbsp;</b> 
+                        <span> (7h30 - 22h)</span>
+                    </div>
         		</aside>
                 
-        		<!-- <div class="chitiet3" id="chitiet3b">
-        			<a href="#">MUA NGAY</a>
-        			<a href="#">MUA TRẢ GÓP</a>
-        		</div> -->
+        			
+        		
             </div>
 
     </div> <!-- topdetail -->

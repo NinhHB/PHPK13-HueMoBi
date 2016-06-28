@@ -173,7 +173,7 @@ img.icon_home {
 }
 
 .logocheck {
-    background: url(../img/logocheck.png);
+    background: url(../img/logocheck.png) no-repeat;
     background-size: 15px;
 }
 
